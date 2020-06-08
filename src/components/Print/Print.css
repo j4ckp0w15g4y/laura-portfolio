@@ -1,0 +1,9 @@
+.print {
+    position: absolute;
+width: 900px;
+height: 1390px;
+left: 50px;
+top: 900px;
+transform: rotate(-90deg);
+background: #FFFFFF;
+}

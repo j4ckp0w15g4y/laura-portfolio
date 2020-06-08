@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Digital.css'
 
 class Digital extends Component {
     render() {

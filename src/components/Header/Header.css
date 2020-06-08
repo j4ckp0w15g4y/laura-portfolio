@@ -1,0 +1,78 @@
+.rectangle-one {
+position: absolute;
+width: 50px;
+height: 300px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+}
+
+.rectangle-two {
+position: absolute;
+width: 50px;
+height: 300px;
+left: 0px;
+top: 300px;
+background: #A5A5A5;
+}
+
+.rectangle-three {
+position: absolute;
+width: 50px;
+height: 300px;
+left: 0px;
+top: 600px;
+background: #FFFFFF;
+}
+
+.about-item {
+position: absolute;
+width: 42px;
+height: 19px;
+left: 15px;
+top: 67px;
+
+font-family: 'Archivo', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+transform: rotate(-90deg);
+}
+
+.digital-item {
+position: absolute;
+width: 156px;
+height: 19px;
+left: 15px;
+top: 200px;
+
+font-family: 'Archivo', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 16px;
+text-align: right;
+color: #000000;
+transform: rotate(-90deg);
+}
+
+.print-item {
+position: absolute;
+width: 99px;
+height: 19px;
+left: 15px;
+top: 724px;
+font-family: 'Archivo', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 16px;
+text-align: right;
+color: #000000;
+transform: rotate(-90deg);
+}
