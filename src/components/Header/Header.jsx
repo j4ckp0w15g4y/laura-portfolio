@@ -9,9 +9,9 @@ class Header extends Component {
             <div className="header">
                 <nav className="header-nav">
                     <ul>
-                        <div className="rectangle-one"><li><Link to='/' className="header-item about-item">About</Link></li></div>
-                       <div className="rectangle-two"><li><Link to='/digital' className="header-item digital-item" >Selected Digital</Link></li></div>
-                       <div className="rectangle-three"><li><Link to='/print' className="header-item print-item" >Selected Print</Link></li></div>
+                        <div className="rectangle one"><li><Link to='/' className="about-item header-item">About</Link></li></div>
+                       <div className="rectangle two"><li><Link to='/digital' className="digital-item header-item">Digital</Link></li></div>
+                       <div className="rectangle three"><li><Link to='/print' className="print-item header-item">Print</Link></li></div>
                     </ul>
                 </nav>
             </div>

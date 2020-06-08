@@ -1,3 +1,6 @@
 .about { 
+width: 100vw;
+height: 100vh;
+margin-top: -4vh;
 background-color: #000000;
 }
