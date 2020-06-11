@@ -7,55 +7,59 @@ background-color: #A5A5A5;
 .column-label-left {
     position: absolute;
 width: 19.7841726619vw;
-height: 16px;
+height: 1.77777778vh;
 left: 78.6vw;
 font-family: 'Archivo', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 15px;
-line-height: 16px;
+font-size: 0.75em;
+line-height: 1vh;
 color: #000000;
 }
 
 .column-label-right {
     position: absolute;
-width: 19.7841726619vw;
-height: 16px;
+height: 1.77777778vh;
 left: 91.25vw;
 font-family: 'Archivo', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 15px;
-line-height: 16px;
+font-size: 0.75em;
+line-height: 1vh;
 color: #000000;
 }
 
 .title-heading {
-    top: 2.8vh;
+    top: 4vh;
 }
 
 .projects-underline {
 position: absolute;
-width: 88vw;
+width: 87.25vw;
 height: 0px;
 left: 5.8vw;
-top: 4vh;
+top: 6vh;
 
 border: 1px solid #000000;
 }
 
+
+
 .projects-list {
     position: absolute;
-    /* width: 19.7841726619vw; */
-    height: 16px;
-    width: 88vw;
+    height: 1.5vh;
+    width: 87.5vw;
     left: 5.8vw;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 16px;
+    font-size: 0.75em;
+    line-height: 1vh;
     color: #000000;
+    }
+ 
+    .projects-list:hover {
+        border-bottom: 0.05em solid black;
     }
 
     .first-entry {
@@ -105,3 +109,16 @@ border: 1px solid #000000;
     .twelfth-entry {
         top: 41vh;
     }
+
+    #project-header {
+        position: absolute;
+        height: 1vh;
+        width: 88.25vw;
+        left: 5.8vw;
+        font-family: 'Archivo', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.75em;
+        line-height: 1vh;
+        color: #000000;
+        }

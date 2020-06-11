@@ -9,41 +9,39 @@ position: absolute;
 width: 612px;
 height: 48px;
 left: 80px;
-top: 27px;
+top: 3vh;
 font-family: 'Archivo', sans-serif;
 font-style: normal;
 font-weight: 600;
-font-size: 15px;
-line-height: 16px;
+font-size: 0.75em;
+line-height: 1vh;
 color: #FFFFFF;
 }
 
 .left-text-box {
 position: absolute;
-width: 347px;
+width: 24.9640288vw;
 height: 48px;
 left: 398px;
-top: 27px;
-font-family: Archivo;
+top: 3vh;
+font-family: 'Archivo', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 15px;
-line-height: 16px;
+font-size: 0.75em;
+line-height: 1vh;
 color: #FFFFFF;
 }
 
 .bio {
-    /* word-wrap: inherit; */
     position: absolute;
 width: 44.2vw;
 height: 41.7vh;
-top: 27px;
+top: 2vh;
+font-size: 0.75em;
 font-family: 'Archivo', sans-serif;
 font-style: normal;
 font-weight: 500;
-/* font-size: 90%; */
-line-height: 16px;
-overflow: none;
+line-height: 3vh;
 color: #FFFFFF;
 left: 53.6vw;
 }

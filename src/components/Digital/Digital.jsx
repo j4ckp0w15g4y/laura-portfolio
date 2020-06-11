@@ -6,7 +6,7 @@ class Digital extends Component {
         return (
             <div className="digital">
                 <div>
-                    <span className="projects-list title-heading">Project</span>
+                    <span className="title-heading" id="project-header">Project</span>
                     <div className="column-label-left title-heading">
                         <span className="client-list">Client</span>
                     </div>
@@ -17,9 +17,8 @@ class Digital extends Component {
 
                 <div className="projects-underline"></div>
 
-                <div>
-                    <div>
-                        <span className="projects-list first-entry">
+                    <div className="total-project">
+                        <span className="projects-list first-entry ">
                             Christo Geoghan Explores Deadly Accusations Of Witchcraft Amongst A Remote Healer Community
                         </span>
                         <div className="first-entry column-label-left">
@@ -32,10 +31,9 @@ class Digital extends Component {
                                 2018
                             </span>
                         </div>
-
                     </div>
-                    <div>
-                        <span className="projects-list second-entry">
+                    <div className="">
+                        <span className="projects-list second-entry ">
                             Eddie Wrey Photographs The Women Of West African Market Adjamé
                         </span>
                         <div className="second-entry column-label-left">
@@ -50,7 +48,7 @@ class Digital extends Component {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="">
                         <span className="projects-list third-entry">
                             Matter Is The Inclusive Magazine That Treats Brain Injury With Grace and Good Humour
                         </span>
@@ -67,7 +65,7 @@ class Digital extends Component {
 
                     </div>
 
-                    <div>
+                    <div className="">
                         <span className="projects-list fourth-entry">
                             Ryan O'Toole Collett's Portrait Series in Kenya Bridges the Gap Between Photographer And Subject
                         </span>
@@ -84,7 +82,7 @@ class Digital extends Component {
 
                     </div>
 
-                    <div>
+                    <div className="">
                         <span className="projects-list fifth-entry">
                             A Lesson In Authenticity: The Work Of Fashion Illustrator Richard Haines
                         </span>
@@ -101,7 +99,7 @@ class Digital extends Component {
 
                     </div>
 
-                    <div>
+                    <div className="">
                         <span className="projects-list sixth-entry">
                             Alexandra Leese Shoots A Series Of Characterful Welsh Nans For Helmut Lang
                         </span>
@@ -118,7 +116,7 @@ class Digital extends Component {
 
                     </div>
 
-                    <div>
+                    <div className="">
                         <span className="projects-list seventh-entry">
                             Bambi Kirschner's 3D-Visuals Present a Bizarre, Hyperreal 21st Century Digital Girl's World 
                         </span>
@@ -135,9 +133,9 @@ class Digital extends Component {
 
                     </div>
 
-                    <div>
+                    <div className="">
                         <span className="projects-list eighth-entry">
-                            Photographer Thurstan Redding's Project Castle Village Portrays a Joyful and Optimistic View of Old Age
+                            Photographer Thurstan Redding's Project Castle Village Portrays An Optimistic and Joyful View of Old Age
                         </span>
                         <div className="eighth-entry column-label-left">
                             <span className="client-list">
@@ -152,13 +150,13 @@ class Digital extends Component {
 
                     </div>
 
-                    <div>
+                    <div className=""> 
                         <span className="projects-list ninth-entry">
-                            Christo Geoghan Explores Deadly Accusations Of Witchcraft Amongst A Remote Healer Community
+                        The Radical Greek Designer Exploring The Concept Of Female Wetness
                         </span>
                         <div className="ninth-entry column-label-left">
                             <span className="client-list">
-                                It's Nice That
+                                Dazed
                         </span>
                         </div>
                         <div className="ninth-entry column-label-right">
@@ -169,13 +167,13 @@ class Digital extends Component {
 
                     </div>
 
-                    <div>
+                    <div className="">
                         <span className="projects-list tenth-entry">
-                            Christo Geoghan Explores Deadly Accusations Of Witchcraft Amongst A Remote Healer Community
+                            Why Was Casting So Important At The Latest London Men's Fashion Week?
                         </span>
                         <div className="tenth-entry column-label-left">
                             <span className="client-list">
-                                It's Nice That
+                                i-D
                         </span>
                         </div>
                         <div className="tenth-entry column-label-right">
@@ -186,13 +184,13 @@ class Digital extends Component {
 
                     </div>
 
-                    <div>
+                    <div className="">
                         <span className="projects-list eleventh-entry">
-                            Christo Geoghan Explores Deadly Accusations Of Witchcraft Amongst A Remote Healer Community
+                            We Talk To Pussy Riot About Art Protest And Shutting Down Putin
                         </span>
                         <div className="eleventh-entry column-label-left">
                             <span className="client-list">
-                                It's Nice That
+                                HERO
                         </span>
                         </div>
                         <div className="eleventh-entry column-label-right">
@@ -203,7 +201,6 @@ class Digital extends Component {
 
                     </div>                
                 </div>
-            </div>
         );
     }
 }
