@@ -23,7 +23,7 @@ background: #FFFFFF;
 .header-item {
     height: 19px;    
     font-family: 'Archivo', sans-serif;
-    font-size: 15px;
+    font-size: 0.75em;
 line-height: 16px;
 text-align: right;
 transform: rotate(-90deg);
@@ -36,7 +36,7 @@ text-decoration: none;
     left: 1vh;
     position: absolute;
     height: 19px;
-top: 67px;
+top: 5.5vh;
 color: #FFFFFF;
 transform: rotate(-90deg);
 }
@@ -44,13 +44,13 @@ transform: rotate(-90deg);
 .digital-item {
     left: 1vh;
 position: absolute;
-top: 67px;
+top: 5.5vh;
 color: #000000;
 }
 
 .print-item {
-    left: 1vh;
+    left: 2vh;
     position: absolute; 
-top: 67px;
+top: 5.5vh;
 color: #000000;
 }
