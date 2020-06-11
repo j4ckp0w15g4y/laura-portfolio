@@ -1,0 +1,107 @@
+.digital {
+width: 100vw;
+height: 100vh;
+background-color: #A5A5A5;
+}
+
+.column-label-left {
+    position: absolute;
+width: 19.7841726619vw;
+height: 16px;
+left: 78.6vw;
+font-family: 'Archivo', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px;
+color: #000000;
+}
+
+.column-label-right {
+    position: absolute;
+width: 19.7841726619vw;
+height: 16px;
+left: 91.25vw;
+font-family: 'Archivo', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 16px;
+color: #000000;
+}
+
+.title-heading {
+    top: 2.8vh;
+}
+
+.projects-underline {
+position: absolute;
+width: 88vw;
+height: 0px;
+left: 5.8vw;
+top: 4vh;
+
+border: 1px solid #000000;
+}
+
+.projects-list {
+    position: absolute;
+    /* width: 19.7841726619vw; */
+    height: 16px;
+    width: 88vw;
+    left: 5.8vw;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+    }
+
+    .first-entry {
+        top: 8vh;
+    }
+
+    .second-entry {
+        top: 11vh;
+    }
+
+    .third-entry {
+        top: 14vh;
+    }
+
+    .fourth-entry {
+        top: 17vh;
+    }
+
+    .fifth-entry {
+        top: 20vh;
+    }
+
+    .sixth-entry {
+        top: 23vh;
+    }
+
+    .seventh-entry {
+        top: 26vh;
+    }
+
+    .eighth-entry {
+        top: 29vh; 
+    }
+
+    .ninth-entry {
+        top: 32vh;
+    }
+
+    .tenth-entry {
+        top: 35vh;
+    }
+
+    .eleventh-entry {
+        top: 38vh;
+    }
+
+    .twelfth-entry {
+        top: 41vh;
+    }

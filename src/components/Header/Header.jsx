@@ -8,11 +8,9 @@ class Header extends Component {
         return (
             <div className="header">
                 <nav className="header-nav">
-                    <ul>
-                        <div className="rectangle one"><li><Link to='/' className="about-item header-item">About</Link></li></div>
-                       <div className="rectangle two"><li><Link to='/digital' className="digital-item header-item">Digital</Link></li></div>
-                       <div className="rectangle three"><li><Link to='/print' className="print-item header-item">Print</Link></li></div>
-                    </ul>
+                    <div className="rectangle one"><Link to='/' className="about-item header-item">About</Link></div>
+                    <div className="rectangle two"><Link to='/digital' className="digital-item header-item">Digital</Link></div>
+                    <div className="rectangle three"><Link to='/print' className="print-item header-item">Print</Link></div>
                 </nav>
             </div>
         );
