@@ -17,9 +17,9 @@ class Digital extends Component {
 
                 <div className="projects-underline"></div>
 
-                    <div className="total-project">
+                <a className="project-link" href="https://www.itsnicethat.com/articles/christo-geoghegan-banished-of-balsapuerto-photography-311018" target="_blank"> <div className="total-project">
                         <span className="projects-list first-entry ">
-                            Christo Geoghan Explores Deadly Accusations Of Witchcraft Amongst A Remote Healer Community
+                          Christo Geoghan Explores Deadly Accusations Of Witchcraft Amongst A Remote Healer Community
                         </span>
                         <div className="first-entry column-label-left">
                             <span className="client-list">
@@ -32,6 +32,7 @@ class Digital extends Component {
                             </span>
                         </div>
                     </div>
+                    </a>
                     <div className="">
                         <span className="projects-list second-entry ">
                             Eddie Wrey Photographs The Women Of West African Market Adjamé

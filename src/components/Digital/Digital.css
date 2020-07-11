@@ -35,7 +35,7 @@ color: #000000;
 
 .projects-underline {
 position: absolute;
-width: 87.25vw;
+width: 87.5vw;
 height: 0px;
 left: 5.8vw;
 top: 6vh;
@@ -43,7 +43,10 @@ top: 6vh;
 border: 1px solid #000000;
 }
 
-
+.project-link {
+    text-decoration: none;
+    color: black;
+}
 
 .projects-list {
     position: absolute;
