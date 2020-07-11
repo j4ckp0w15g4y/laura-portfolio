@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Print.css'
 import LauraHeroDigital from '../../laura-isabella-two.svg';
+import jHusImageOne from '../../Assets/J-Hus-1.jpg'
 
 
 class Print extends Component {
@@ -32,8 +33,13 @@ class Print extends Component {
                         <span>
                             2018
                             </span>
+                            {/* <img src={jHusImageOne} className="first-entry print-image-landscape"/> */}
                     </div>
+                    
                 </div>
+
+                
+
                 <div className="">
                     <span className="projects-list second-entry ">
                         Dana

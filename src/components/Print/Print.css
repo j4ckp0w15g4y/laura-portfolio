@@ -3,3 +3,10 @@ width: 100vw;
 height: 100vh;
 background: #FFFFFF;
 }
+
+.print-image-landscape {
+    width: 14.3055555556vw;
+    height: 14.8888888889vh;
+    display: block;
+    /* visibility: hidden; */
+}
