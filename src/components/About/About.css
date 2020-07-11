@@ -8,7 +8,7 @@ background-color: #000000;
 position: absolute;
 width: 612px;
 height: 48px;
-left: 80px;
+left: 5.8vw;
 top: 3vh;
 font-family: 'Archivo', sans-serif;
 font-style: normal;
@@ -44,4 +44,12 @@ font-weight: 500;
 line-height: 3vh;
 color: #FFFFFF;
 left: 53.6vw;
+}
+
+.laura-font-about {
+    position: relative;    
+    width: 94vw;
+    left: 4.4vw;
+    top: 66vh;
+    filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);
 }

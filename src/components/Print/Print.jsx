@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import './Print.css'
+import LauraHeroDigital from '../../laura-isabella-two.svg';
+
 
 class Print extends Component {
     render() {
+        const svgPathTwo = `${LauraHeroDigital}#svgView(preserveAspectRatio(none))`;
         return (
             <div className="print">
                 <div>
@@ -147,6 +150,10 @@ class Print extends Component {
                             </span>
                     </div>
                 </div>
+                <img 
+                    src={svgPathTwo}
+                    className="laura-font-digital"                    
+                    alt="website logo"/>
             </div>
         );
     }
