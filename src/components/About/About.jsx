@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './About.css'
+import LauraHeroDigital from '../../laura-isabella-two.svg';
 
 class About extends Component {
     render() {
+        const svgPathThree = `${LauraHeroDigital}#svgView(preserveAspectRatio(none))`;
         return (
             <div className="about">
                 <div className="info">
@@ -22,6 +24,10 @@ class About extends Component {
 
                     <p>Morbi at porta dolor, vel consectetur augue. Mauris nec pellentesque augue. Proin aliquam fringilla urna vel accumsan. Praesent dapibus nunc a euismod aliquam. Nunc ac mattis nisl. Curabitur non mollis magna. Ut placerat urna dignissim sodales venenatis. Vestibulum molestie, nunc eget hendrerit malesuada, dui est ultrices eros, at ornare odio ante a arcu. Donec quam ipsum, placerat a dolor eget, semper porta ipsum.</p>
                 </div>
+                <img 
+                    src={svgPathThree}
+                    className="laura-font-about"                    
+                    alt="website logo"/>
             </div>
         );
     }

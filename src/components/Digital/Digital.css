@@ -20,7 +20,7 @@ color: #000000;
 .column-label-right {
     position: absolute;
 height: 1.77777778vh;
-left: 91.25vw;
+left: 94vw;
 font-family: 'Archivo', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -35,7 +35,7 @@ color: #000000;
 
 .projects-underline {
 position: absolute;
-width: 87.5vw;
+width: 90.2vw;
 height: 0px;
 left: 5.8vw;
 top: 6vh;
@@ -51,7 +51,7 @@ border: 1px solid #000000;
 .projects-list {
     position: absolute;
     height: 1.5vh;
-    width: 87.5vw;
+    width: 90.2vw;
     left: 5.8vw;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
@@ -112,6 +112,17 @@ border: 1px solid #000000;
     .twelfth-entry {
         top: 41vh;
     }
+
+    .laura-font-digital {
+        position: relative;    
+        width: 94vw;
+        left: 4.4vw;
+        top: 66vh;
+    }
+
+
+ 
+
 
     #project-header {
         position: absolute;
