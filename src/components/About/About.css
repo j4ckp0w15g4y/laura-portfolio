@@ -6,8 +6,8 @@ background-color: #000000;
 
 .info {
 position: absolute;
-width: 612px;
-height: 48px;
+width: 24.9640288vw;
+height: 5.333vh;
 left: 5.8vw;
 top: 3vh;
 font-family: 'Archivo', sans-serif;
@@ -21,8 +21,8 @@ color: #FFFFFF;
 .left-text-box {
 position: absolute;
 width: 24.9640288vw;
-height: 48px;
-left: 398px;
+height: 5.333vh;
+left: 27.6388888889vw;
 top: 3vh;
 font-family: 'Archivo', sans-serif;
 font-style: normal;
