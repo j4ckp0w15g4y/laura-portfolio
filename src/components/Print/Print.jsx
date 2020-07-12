@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './Print.css'
 import LauraHeroDigital from '../../laura-isabella-two.svg';
-import jHusImageOne from '../../Assets/J-Hus-1.jpg'
-
+import CameronDallasPdf from '../../Assets/cameron-dallas.pdf'
 
 class Print extends Component {
     render() {
@@ -32,8 +31,7 @@ class Print extends Component {
                     <div className="first-entry column-label-right">
                         <span>
                             2018
-                            </span>
-                            {/* <img src={jHusImageOne} className="first-entry print-image-landscape"/> */}
+                            </span>                            
                     </div>
                     
                 </div>
