@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import './Print.css'
 import LauraHeroDigital from '../../laura-isabella-two.svg';
 import CameronDallasPdf from '../../Assets/cameron-dallas.pdf'
+import DanaPdf from '../../Assets/DANA.pdf'
+import JHusPdf from '../../Assets/j-hus.pdf'
+import MaxWhitPdf from '../../Assets/max-whitlock.pdf'
+import NeonDemonPdf from '../../Assets/neon-demon.pdf'
+import SlavaPdf from '../../Assets/slava.pdf'
+import SimiHazePdf from '../../Assets/SimiHaze.pdf'
 
 class Print extends Component {
     render() {
@@ -20,6 +26,7 @@ class Print extends Component {
 
                 <div className="projects-underline"></div>
 
+                <a className="project-link" href={JHusPdf} target="_blank" rel="noopener noreferrer"> 
                 <div className="total-project">
                     <span className="projects-list first-entry ">
                         J HUS                        </span>
@@ -32,12 +39,12 @@ class Print extends Component {
                         <span>
                             2018
                             </span>                            
-                    </div>
-                    
+                    </div>                                        
                 </div>
+                </a>
 
                 
-
+                <a className="project-link" href={DanaPdf} target="_blank" rel="noopener noreferrer"> 
                 <div className="">
                     <span className="projects-list second-entry ">
                         Dana
@@ -53,7 +60,9 @@ class Print extends Component {
                             </span>
                     </div>
                 </div>
+                </a>
 
+                <a className="project-link" href={MaxWhitPdf} target="_blank" rel="noopener noreferrer"> 
                 <div className="">
                     <span className="projects-list third-entry">
                         Max Whitlock
@@ -68,9 +77,10 @@ class Print extends Component {
                             2018
                             </span>
                     </div>
-
                 </div>
+                </a>
 
+                <a className="project-link" href={SimiHazePdf} target="_blank" rel="noopener noreferrer"> 
                 <div className="">
                     <span className="projects-list fourth-entry">
                         Simi Haze
@@ -85,9 +95,10 @@ class Print extends Component {
                             2018
                             </span>
                     </div>
-
                 </div>
+                </a>
 
+                <a className="project-link" href={NeonDemonPdf} target="_blank" rel="noopener noreferrer"> 
                 <div className="">
                     <span className="projects-list fifth-entry">
                        Neon Demon   
@@ -102,9 +113,10 @@ class Print extends Component {
                             2018
                             </span>
                     </div>
-
                 </div>
+                </a>
 
+                <a className="project-link" href={SlavaPdf} target="_blank" rel="noopener noreferrer"> 
                 <div className="">
                     <span className="projects-list sixth-entry">
                         Slava Magutin
@@ -119,8 +131,8 @@ class Print extends Component {
                             2018
                             </span>
                     </div>
-
                 </div>
+                </a>
 
                 <div className="">
                     <span className="projects-list seventh-entry">
@@ -139,6 +151,7 @@ class Print extends Component {
 
                 </div>
 
+                <a className="project-link" href={CameronDallasPdf} target="_blank" rel="noopener noreferrer"> 
                 <div className="">
                     <span className="projects-list eighth-entry">
                         Cameron Dallas
@@ -154,6 +167,7 @@ class Print extends Component {
                             </span>
                     </div>
                 </div>
+                </a>
                 <img 
                     src={svgPathTwo}
                     className="laura-font-digital"                    
