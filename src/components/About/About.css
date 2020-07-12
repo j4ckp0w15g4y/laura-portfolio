@@ -52,5 +52,9 @@ left: 53.6vw;
     left: 4.4vw;
     top: 66vh;
     filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);
-    
+}
+
+.brand-italic {
+    font-style: italic;
+    font-weight: 800;
 }
