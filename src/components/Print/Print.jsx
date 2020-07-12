@@ -11,7 +11,7 @@ import SimiHazePdf from '../../Assets/SimiHaze.pdf'
 
 class Print extends Component {
     render() {
-        const svgPathTwo = `${LauraHeroDigital}#svgView(preserveAspectRatio(none))`;
+        const svgPathTwo = `${LauraHeroDigital}`;
         return (
             <div className="print">
                 <div>
