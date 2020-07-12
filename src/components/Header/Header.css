@@ -2,11 +2,10 @@
 position: absolute;
 width: 7vh;
 height: 34vh;
-left: 0px;
+left: 0vw;
 }
 
 .one {
-top: 0px;
 background: #000000;
 }
 
@@ -21,10 +20,10 @@ background: #FFFFFF;
 }
 
 .header-item {
-    height: 19px;    
-    font-family: 'Archivo', sans-serif;
-    font-size: 0.75em;
-line-height: 16px;
+height: 1vh; 
+width: 10vw;   
+font-family: 'Archivo', sans-serif;
+font-size: 0.75em;
 text-align: right;
 transform: rotate(-90deg);
 font-style: normal;
@@ -32,25 +31,24 @@ font-weight: normal;
 text-decoration: none;
 }
 
-.about-item {
-    left: 1vh;
-    position: absolute;
-    height: 19px;
-top: 5.5vh;
+.about-item {    
+    left: -6vh;
+    position: absolute;    
+top: 12vh;
 color: #FFFFFF;
-transform: rotate(-90deg);
 }
 
 .digital-item {
-    left: 1vh;
+left: -6vh;
 position: absolute;
-top: 5.5vh;
+top: 12vh;
 color: #000000;
+
 }
 
 .print-item {
-    left: 2vh;
+    left: -6vh;
     position: absolute; 
-top: 5.5vh;
+top: 12vh;
 color: #000000;
 }
