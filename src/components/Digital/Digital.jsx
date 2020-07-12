@@ -21,7 +21,7 @@ class Digital extends Component {
 
                 <a className="project-link" href="https://www.itsnicethat.com/articles/christo-geoghegan-banished-of-balsapuerto-photography-311018" target="_blank" rel="noopener noreferrer"> 
                 <div className="total-project">
-                        <span className="projects-list first-entry ">
+                        <span className="projects-list first-entry">
                           Christo Geoghan Explores Deadly Accusations Of Witchcraft Amongst A Remote Healer Community
                         </span>
                         <div className="first-entry column-label-left">

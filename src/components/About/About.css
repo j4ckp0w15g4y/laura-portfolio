@@ -14,7 +14,7 @@ font-family: 'Archivo', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 0.75em;
-line-height: 1vh;
+line-height: 2vh;
 color: #FFFFFF;
 }
 
@@ -28,7 +28,7 @@ font-family: 'Archivo', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 0.75em;
-line-height: 1vh;
+line-height: 2vh;
 color: #FFFFFF;
 }
 
@@ -47,10 +47,10 @@ left: 53.6vw;
 }
 
 .laura-font-about {
-    position: relative;    
+    position: fixed;
+    bottom: -2vh;   
     width: 94vw;
-    left: 4.4vw;
-    top: 66vh;
+    left: 4.4vw;    
     filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);
 }
 
