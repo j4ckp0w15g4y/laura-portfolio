@@ -31,24 +31,24 @@ font-weight: normal;
 text-decoration: none;
 }
 
-.about-item {    
-    left: -6vh;
+.about-item {
+    left: 0.6vh;    
     position: absolute;    
-top: 12vh;
+top: 5.5vh;
 color: #FFFFFF;
 }
 
 .digital-item {
-left: -6vh;
+    left: 0.6vh;    
 position: absolute;
-top: 12vh;
+top: 5.5vh;
 color: #000000;
 
 }
 
 .print-item {
-    left: -6vh;
+    left: 0.6vh;
     position: absolute; 
-top: 12vh;
+top: 5.5vh;
 color: #000000;
 }
