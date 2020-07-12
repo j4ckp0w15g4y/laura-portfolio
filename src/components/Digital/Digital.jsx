@@ -4,7 +4,7 @@ import LauraHeroDigital from '../../laura-isabella-two.svg';
 
 class Digital extends Component {
     render() {
-        const svgPath = `${LauraHeroDigital}#svgView(preserveAspectRatio(none))`;
+        const svgPath = `${LauraHeroDigital}`;
         return (
             <div className="digital">
                 <div>
