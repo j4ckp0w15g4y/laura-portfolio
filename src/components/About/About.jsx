@@ -20,14 +20,14 @@ class About extends Component {
                 </div>
 
                 <div className="bio">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac eros a nisi porttitor congue. Donec aliquet hendrerit elit quis ornare. Etiam nec finibus dolor, ut ultrices augue. Sed eget sapien ut leo dictum bibendum posuere id eros. Morbi sit amet libero sit amet nibh egestas blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis augue sed cursus elementum. Quisque placerat ante vitae purus ullamcorper congue. Morbi eleifend odio dolor, vel tincidunt nisi gravida et. Nulla interdum sit amet elit vitae molestie. Nullam consequat quis leo sit amet commodo. In consequat bibendum vehicula. Praesent aliquet, neque nec maximus dictum, massa dolor tristique tortor, ut pellentesque nulla libero non turpis.</p>
+                    <p>A highly skilled writer, digital editor, and brand consultant; Laura Isabella has been working within the creative industries with a key focus on fashion, youth culture and championing emerging talent for the past eight years. Laura has worked both freelance and in-house for a plethora of titles, with roles including Online Editor at <span className="brand-italic">Wonderland Magazine</span> and Social Media Manager at <span className="brand-italic">The Business of Fashion</span> and <span className="brand-italic">Hunger TV</span>. She has a keen interest in working creatively on bespoke advertorial content and has previously worked on special projects with brands including <span className="brand-italic">Chanel</span>, <span className="brand-italic">Dior</span>, <span className="brand-italic">Gucci</span>, <span className="brand-italic">Miu Miu</span>, and <span className="brand-italic">McQ</span>.</p>
 
-                    <p>Morbi at porta dolor, vel consectetur augue. Mauris nec pellentesque augue. Proin aliquam fringilla urna vel accumsan. Praesent dapibus nunc a euismod aliquam. Nunc ac mattis nisl. Curabitur non mollis magna. Ut placerat urna dignissim sodales venenatis. Vestibulum molestie, nunc eget hendrerit malesuada, dui est ultrices eros, at ornare odio ante a arcu. Donec quam ipsum, placerat a dolor eget, semper porta ipsum.</p>
+                    <p>Dedicated to everything pop culture, Laura uses her wealth of knowledge gleaned from vast experience at youth culture titles and her love of research as a springboard for all her forward-facing work — be it editorial, branded content, consulting for brands, research, features writing, trend forecasting case studies or communications.</p>
                 </div>
-                <img 
+                <img
                     src={svgPathThree}
-                    className="laura-font-about"                    
-                    alt="website logo"/>
+                    className="laura-font-about"
+                    alt="website logo" />
             </div>
         );
     }
