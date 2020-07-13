@@ -44,10 +44,8 @@ border: 1px solid #000000;
 }
 
 .project-link {
-    text-decoration: none;
-    color: black;
-    left: 5.8vw;
-    width: 90.4vw;
+    text-decoration: none;    
+    color: black;               
 }
 
 
@@ -68,6 +66,7 @@ border: 1px solid #000000;
     .projects-list:hover {
         border-bottom: 0.05em solid black;
     }
+  
 
     .first-entry {
         top: 8vh;
@@ -121,8 +120,8 @@ border: 1px solid #000000;
 
     .laura-font-digital {
         position: fixed;
-        bottom: -2vh;    
-        width: 94vw;
+        bottom: -3vh;    
+        width: 95vw;
         left: 4.4vw;        
         max-height: 100%;
     }
