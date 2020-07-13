@@ -19,10 +19,14 @@ class Digital extends Component {
 
             <div className="projects-table">
                 <div className="project">
-                    <span>Christo Geoghan Explores Deadly Accusations Of Witchcraft Amongst A Remote Healer Community</span>
-                    <div className="client-column">
-                    <span>It's Nice That</span>
-                    </div>                
+                    <span>Christo Geoghan Explores Deadly Accusations Of Witchcraft Amongst A Remote Healer Community</span>                    
+                    <span className="client-column">It's Nice That</span>                    
+                    <span className="year-column">2018</span>
+                </div>
+
+                <div className="project">
+                    <span>Christo Geoghan Explores Deadly Accusations Of Witchcraft Amongst A Remote Healer Community</span>                    
+                    <span className="client-column">It's Nice That</span>                    
                     <span className="year-column">2018</span>
                 </div>
 
