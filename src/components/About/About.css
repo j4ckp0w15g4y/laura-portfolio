@@ -6,7 +6,7 @@ background-color: #000000;
 
 .info {
 position: absolute;
-width: 24.9640288vw;
+width: 20vw;
 height: 5.333vh;
 left: 5.8vw;
 top: 3vh;
@@ -48,8 +48,8 @@ left: 53.6vw;
 
 .laura-font-about {
     position: fixed;
-    bottom: -2vh;   
-    width: 94vw;
+    bottom: -3vh;   
+    width: 95vw;
     left: 4.4vw;    
     filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);
 }

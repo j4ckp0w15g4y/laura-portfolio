@@ -29,26 +29,25 @@ transform: rotate(-90deg);
 font-style: normal;
 font-weight: normal;
 text-decoration: none;
+margin-left: 0.2vw;
 }
 
-.about-item {
-    margin-left: 0.2vw;
-    position: absolute;    
+.about-item {    
+position: absolute;    
 top: 5.5vh;
 color: #FFFFFF;
 }
 
 .digital-item {
-    margin-left: 0.2vw;    
+       
 position: absolute;
 top: 5.5vh;
 color: #000000;
 
 }
 
-.print-item {
-    margin-left: 0.2vw;
-    position: absolute; 
+.print-item {    
+position: absolute; 
 top: 5.5vh;
 color: #000000;
 }
