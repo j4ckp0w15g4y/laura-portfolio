@@ -47,15 +47,16 @@ border: 1px solid #000000;
 .projects-table {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    flex-wrap: wrap;
+    position: relative;
     width: 90.4vw;
     left: 5.8vw;    
     top: 8vh;    
 }
 
 .project {
-    /* display: grid;
-    grid-template-columns: 5fr fr; */
+    display: grid;
+    grid-template-columns: 5.5fr 1fr 1fr;
     margin-bottom: 1vh;
     width: 90.4vw;
     font-style: normal;
@@ -67,8 +68,14 @@ border: 1px solid #000000;
     border-bottom: 0.05em solid #000000;
 }  
 
-.client-column {    
-    left: 78.6vw;
+.client-column {  
+    position: absolute;  
+    left: 72.8vw;
+}
+
+.year-column {
+    position: absolute;
+    left: 88.2vw;
 }
 
 
