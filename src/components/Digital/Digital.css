@@ -2,6 +2,7 @@
 width: 100vw;
 height: 100vh;
 background-color: #A5A5A5;
+font-family: 'Archivo', sans-serif;
 }
 
 .column-label-left {
@@ -43,80 +44,33 @@ top: 6vh;
 border: 1px solid #000000;
 }
 
-.project-link {
-    text-decoration: none;    
-    color: black;               
+.projects-table {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 90.4vw;
+    left: 5.8vw;    
+    top: 8vh;    
 }
 
-
-.projects-list {
-    position: absolute;
-    height: 1.5vh;
+.project {
+    /* display: grid;
+    grid-template-columns: 5fr fr; */
+    margin-bottom: 1vh;
     width: 90.4vw;
-    left: 5.8vw;
-    font-family: 'Archivo', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.75em;
-    line-height: 1vh;
-    color: #000000;
-    /* overflow: auto; */
-    }
- 
-    .projects-list:hover {
-        border-bottom: 0.05em solid black;
-    }
-  
+}
 
-    .first-entry {
-        top: 8vh;
-        margin-bottom: 1vh;
-        margin-right: 1vh
-    }
+.project:hover {
+    border-bottom: 0.05em solid #000000;
+}  
 
-    .second-entry {
-        top: 11vh;
-    }
+.client-column {    
+    left: 78.6vw;
+}
 
-    .third-entry {
-        top: 14vh;
-    }
-
-    .fourth-entry {
-        top: 17vh;
-    }
-
-    .fifth-entry {
-        top: 20vh;
-    }
-
-    .sixth-entry {
-        top: 23vh;
-    }
-
-    .seventh-entry {
-        top: 26vh;
-    }
-
-    .eighth-entry {
-        top: 29vh; 
-    }
-
-    .ninth-entry {
-        top: 32vh;
-    }
-
-    .tenth-entry {
-        top: 35vh;
-    }
-
-    .eleventh-entry {
-        top: 38vh;
-    }
-
-    .twelfth-entry {
-        top: 41vh;
-    }
 
     .laura-font-digital {
         position: fixed;
