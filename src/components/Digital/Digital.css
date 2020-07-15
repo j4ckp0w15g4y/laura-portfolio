@@ -56,16 +56,18 @@ border: 1px solid #000000;
 
 .project {
     display: grid;
-    grid-template-columns: 5.5fr 1fr 1fr;
-    margin-bottom: 1vh;
+    grid-template-columns: 5fr 1fr 0.5fr;
+    /* margin-bottom: 1vh; */
+    line-height: 3vh;
     width: 90.4vw;
     font-style: normal;
     font-weight: 500;
     font-size: 0.75em;
+    border-bottom: 0.05em solid transparent;
 }
 
 .project:hover {
-    border-bottom: 0.05em solid #000000;
+    border-bottom: 0.05em solid #000000;    
 } 
 
 .link-edit {
@@ -76,6 +78,7 @@ border: 1px solid #000000;
 .client-column {  
     position: absolute;  
     left: 72.8vw;
+    padding-right: 1vw;
 }
 
 .year-column {
