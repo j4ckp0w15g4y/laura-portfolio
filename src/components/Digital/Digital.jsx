@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import LauraHeroDigital from '../../laura-isabella-two.svg';
 
 class Digital extends Component {
-    render() {
-        const svgPath = `${LauraHeroDigital}`;
+    render() { 
+        const svgPath = `${LauraHeroDigital}`;       
         return (
             <div className="digital">
                 <div>
@@ -93,7 +93,6 @@ class Digital extends Component {
                         </div>
                     </a>
                 </div>
-
                 <img
                     src={svgPath}
                     className="laura-font-digital"
