@@ -161,26 +161,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
         position: absolute;
     width: 19.7841726619vw;
     height: 1.77777778vh;
-    left: 78.6vw;
+    left: 88.6vw;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.75em;
     line-height: 1vh;
     color: #000000;
-    }
-    
-    .column-label-right {
-        position: absolute;
-    height: 1.77777778vh;
-    left: 94vw;
-    font-family: 'Archivo', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.75em;
-    line-height: 1vh;
-    color: #000000;
-    }
+    }       
     
     .title-heading {
         top: 4vh;
@@ -229,15 +217,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     .client-column {  
         position: absolute;  
-        left: 72.8vw;
+        left: 82.8vw;
         padding-right: 1vw;
-    }
-    
-    .year-column {
-        position: absolute;
-        left: 88.2vw;
-    }
-    
+    }       
     
         .laura-font-digital {
             position: fixed;

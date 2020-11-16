@@ -18,10 +18,7 @@ class Print extends Component {
                     <span className="title-heading" id="project-header">Project</span>
                     <div className="column-label-left title-heading">
                         <span className="client-list">Client</span>
-                    </div>
-                    <div className="column-label-right title-heading">
-                        <span className="year-list" >Year</span>
-                    </div>
+                    </div>                    
                 </div>
 
                 <div className="projects-underline"></div>                                                                                                                                                                                                                                                
@@ -30,64 +27,56 @@ class Print extends Component {
                 <a className="link-edit" href={JHusPdf} target="_blank" rel="noopener noreferrer">  
                         <div className="project">
                             <span>J HUS</span>
-                            <span className="client-column">WONDERLAND</span>
-                            <span className="year-column">2018</span>
+                            <span className="client-column">WONDERLAND</span>                            
                         </div>
                     </a>
 
                     <a className="link-edit" href={DanaPdf} target="_blank" rel="noopener noreferrer">                 
                         <div className="project">
                             <span>Dana</span>
-                            <span className="client-column">WONDERLAND</span>
-                            <span className="year-column">2018</span>
+                            <span className="client-column">WONDERLAND</span>                            
                         </div>
                     </a>
 
                     <a className="link-edit" href={MaxWhitPdf} target="_blank" rel="noopener noreferrer">                 
                     <div className="project">
                         <span>Max Whitlock</span>
-                        <span className="client-column">WONDERLAND</span>
-                        <span className="year-column">2018</span>
+                        <span className="client-column">WONDERLAND</span>                        
                     </div>
                     </a>
 
                     <a className="link-edit" href={SimiHazePdf} target="_blank" rel="noopener noreferrer">  
                     <div className="project">
                         <span>Simi Haze</span>
-                        <span className="client-column">WONDERLAND</span>
-                        <span className="year-column">2018</span>
+                        <span className="client-column">WONDERLAND</span>                    
                     </div>
                     </a>
 
                     <a className="link-edit" href={NeonDemonPdf} target="_blank" rel="noopener noreferrer"> 
                     <div className="project">
                         <span>Neon Demon</span>
-                        <span className="client-column">WONDERLAND</span>
-                        <span className="year-column">2018</span>
+                        <span className="client-column">WONDERLAND</span>                        
                     </div>
                     </a>
 
                     <a className="link-edit" href={SlavaPdf} target="_blank" rel="noopener noreferrer">                 
                     <div className="project">
                         <span>Slava Magutin</span>
-                        <span className="client-column">WONDERLAND</span>
-                        <span className="year-column">2018</span>
+                        <span className="client-column">WONDERLAND</span>                        
                     </div>
                     </a>
 
                     <a className="link-edit" href={LastJapanPdf} target="_blank" rel="noopener noreferrer">
                     <div className="project">
                         <span>Last Japan</span>
-                        <span className="client-column">WONDERLAND</span>
-                        <span className="year-column">2018</span>
+                        <span className="client-column">WONDERLAND</span>                        
                     </div>
                     </a>
 
                     <a className="link-edit" href={CameronDallasPdf} target="_blank" rel="noopener noreferrer">
                     <div className="project">
                         <span>Cameron Dallas</span>
-                        <span className="client-column">WONDERLAND</span>
-                        <span className="year-column">2018</span>
+                        <span className="client-column">WONDERLAND</span>                        
                     </div>
                     </a>
 
