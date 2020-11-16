@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Digital.css'
 import LauraHeroDigital from '../../laura-isabella-two.svg';
 
 class Digital extends Component {

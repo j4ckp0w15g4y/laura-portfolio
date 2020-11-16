@@ -1,3 +1,262 @@
 html {
   height: 100%;
 } 
+
+/* Header CSS */
+
+.header-nav {
+  position: absolute;    
+}
+.rectangle {
+position: absolute;
+width: 4vw;
+height: 34vh;
+left: 0vw;
+}
+
+.one {
+background: #000000;
+}
+
+.two {
+top: 33vh;
+background: #A5A5A5;
+}
+
+.three {
+top: 66vh;
+background: #FFFFFF;
+}
+
+.header-item {
+height: 10vh;
+width: 8vw;   
+font-family: 'Archivo', sans-serif;
+font-size: 0.75rem;
+text-align: right;
+transform: rotate(-90deg);
+font-style: normal;
+font-weight: normal;
+text-decoration: none;
+left: 0vw;
+}
+
+.about-item {    
+position: absolute;    
+top: 5.5vh;
+color: #FFFFFF;
+}
+
+.digital-item { 
+position: absolute;
+top: 5.5vh;
+color: #000000;
+
+}
+
+.print-item {    
+position: absolute; 
+top: 5.5vh;
+color: #000000;
+}
+
+
+/* @media only screen 
+and (min-device-width: 320px) 
+and (min-device-height: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+      
+} */
+
+/* About CSS */
+
+.about { 
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  }
+  
+  .info {
+  position: absolute;
+  width: 20vw;
+  height: 5.333vh;
+  left: 5.8vw;
+  top: 3vh;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75em;
+  line-height: 2vh;
+  color: #FFFFFF;
+  }
+  
+  .left-text-box {
+  position: absolute;
+  width: 24.9640288vw;
+  height: 5.333vh;
+  left: 27.6388888889vw;
+  top: 3vh;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 2vh;
+  color: #FFFFFF;
+  }
+  
+  .bio {
+      position: absolute;
+  width: 44.2vw;
+  height: 41.7vh;
+  top: 2vh;
+  font-size: 0.75em;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3vh;
+  color: #FFFFFF;
+  left: 53.6vw;
+  }
+  
+  .laura-font-about {
+      position: fixed;
+      bottom: -3vh;   
+      width: 95vw;
+      left: 4.4vw;    
+      filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);
+  }
+  
+  .brand-italic {
+      font-style: italic;
+      font-weight: 800;
+  }
+
+/* Print CSS  */
+
+.print {
+  width: 100vw;
+  height: 100vh;
+  background: #FFFFFF;
+  font-family: 'Archivo', sans-serif;
+  }
+  
+  .print-image-landscape {
+      width: 14.3055555556vw;
+      height: 14.8888888889vh;
+      display: block;
+      /* visibility: hidden; */
+  
+  }
+
+  /* Digital CSS */
+  .digital {
+    width: 100vw;
+    height: 100vh;
+    background-color: #A5A5A5;
+    font-family: 'Archivo', sans-serif;
+    }
+    
+    .column-label-left {
+        position: absolute;
+    width: 19.7841726619vw;
+    height: 1.77777778vh;
+    left: 78.6vw;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75em;
+    line-height: 1vh;
+    color: #000000;
+    }
+    
+    .column-label-right {
+        position: absolute;
+    height: 1.77777778vh;
+    left: 94vw;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75em;
+    line-height: 1vh;
+    color: #000000;
+    }
+    
+    .title-heading {
+        top: 4vh;
+    }
+    
+    .projects-underline {
+    position: absolute;
+    width: 90.2vw;
+    height: 0px;
+    left: 5.8vw;
+    top: 6vh;
+    
+    border: 1px solid #000000;
+    }
+    
+    .projects-table {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        width: 90.4vw;
+        left: 5.8vw;    
+        top: 8vh;    
+    }
+    
+    .project {
+        display: grid;
+        grid-template-columns: 5fr 1fr 0.5fr;
+        /* margin-bottom: 1vh; */
+        line-height: 3vh;
+        width: 90.4vw;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.75em;
+        border-bottom: 0.05em solid transparent;
+    }
+    
+    .project:hover {
+        border-bottom: 0.05em solid #000000;    
+    } 
+    
+    .link-edit {
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    .client-column {  
+        position: absolute;  
+        left: 72.8vw;
+        padding-right: 1vw;
+    }
+    
+    .year-column {
+        position: absolute;
+        left: 88.2vw;
+    }
+    
+    
+        .laura-font-digital {
+            position: fixed;
+            bottom: -3vh;    
+            width: 95vw;
+            left: 4.4vw;        
+            max-height: 100%;
+        }
+    
+        #project-header {
+            position: absolute;
+            height: 1vh;
+            width: 88.25vw;
+            left: 5.8vw;
+            font-family: 'Archivo', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.75em;
+            line-height: 1vh;
+            color: #000000;
+            }
+    

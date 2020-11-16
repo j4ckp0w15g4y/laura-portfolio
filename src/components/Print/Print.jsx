@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Print.css'
 import LauraHeroDigital from '../../laura-isabella-two.svg';
 import CameronDallasPdf from '../../Assets/cameron-dallas.pdf'
 import DanaPdf from '../../Assets/DANA.pdf'
