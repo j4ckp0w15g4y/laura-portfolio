@@ -61,13 +61,64 @@ color: #000000;
 }
 
 
-/* @media only screen 
+@media only screen 
 and (min-device-width: 320px) 
 and (min-device-height: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
+  .rectangle {
+    position: absolute;
+    top: 100vh;
+    width: 33vw;
+    height: 6vh;        
+    }
 
+    .one {
+      background: #000000;
+      }
       
-} */
+      .two {
+      left: 33vw;
+      background: #A5A5A5;
+      }
+      
+      .three {
+      left: 66vw;
+      background: #FFFFFF;
+      }
+      .header-item {
+        height: 10vh;
+        width: 8vw;   
+        font-family: 'Archivo', sans-serif;
+        font-size: 0.65rem;
+        text-align: right;
+        transform: rotate(0deg);
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: none;
+        left: 8vw;
+        /* bottom: 20vh; */
+        }
+
+        .about-item {    
+          position: absolute;    
+          bottom: 10vh;
+          color: #FFFFFF;
+          }
+          
+          .digital-item { 
+          position: absolute;
+          top: 5.5vh;
+          color: #000000;
+          
+          }
+          
+          .print-item {    
+          position: absolute; 
+          top: 5.5vh;
+          color: #000000;
+          }
+      
+}
 
 /* About CSS */
 
@@ -161,7 +212,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         position: absolute;
     width: 19.7841726619vw;
     height: 1.77777778vh;
-    left: 88.6vw;
+    left: 88.4vw;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -196,10 +247,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     .project {
         display: grid;
-        grid-template-columns: 5fr 1fr 0.5fr;
+        grid-template-columns: 2fr 2fr;
         /* margin-bottom: 1vh; */
         line-height: 3vh;
-        width: 90.4vw;
+        width: 90vw; 
         font-style: normal;
         font-weight: 500;
         font-size: 0.75em;
@@ -217,8 +268,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     .client-column {  
         position: absolute;  
-        left: 82.8vw;
-        padding-right: 1vw;
+        left: 82.6vw;
+        /* padding-left: -4vw; */
+        
     }       
     
         .laura-font-digital {
