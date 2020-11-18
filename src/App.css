@@ -1,8 +1,6 @@
-
-  html {
+   html {
     height: 100%;
-  } 
-  /* Header CSS */
+  }   
   
   .header-nav {
     position: absolute;    
@@ -30,8 +28,9 @@
   }
   
   .header-item {
-  height: 10vh;
-  width: 8vw;   
+    margin-top: 6vh;
+  height: 8vh;
+  width: 12vw;   
   font-family: 'Archivo', sans-serif;
   font-size: 0.75rem;
   text-align: right;
@@ -39,7 +38,7 @@
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
-  left: 0vw;
+  left: -2vw;
   }
   
   .about-item {    
@@ -62,7 +61,6 @@
   }
   
   
-  /* About CSS */
   
   .about { 
     width: 100vw;
@@ -125,8 +123,6 @@
         font-weight: 800;
     }
   
-  /* Print CSS  */
-  
   .print {
     width: 100vw;
     height: 100vh;
@@ -137,12 +133,9 @@
     .print-image-landscape {
         width: 14.3055555556vw;
         height: 14.8888888889vh;
-        display: block;
-        /* visibility: hidden; */
-    
+        display: block;        
     }
-  
-    /* Digital CSS */
+
     .digital {
       width: 100vw;
       height: 100vh;
@@ -152,9 +145,9 @@
       
       .column-label-left {
           position: absolute;
-      width: 19.7841726619vw;
+      width: 10vw;
       height: 1.77777778vh;
-      left: 88.4vw;
+      left: 88.8vw;
       font-family: 'Archivo', sans-serif;
       font-style: normal;
       font-weight: 500;
@@ -182,15 +175,14 @@
           flex-direction: row;
           flex-wrap: wrap;
           position: relative;
-          width: 90.4vw;
+          width: 92vw;
           left: 5.8vw;    
-          top: 8vh;    
+          top: 8vh;              
       }
       
       .project {
           display: grid;
-          grid-template-columns: 2fr 2fr;
-          /* margin-bottom: 1vh; */
+          grid-template-columns: 12fr 4fr;          
           line-height: 3vh;
           width: 90vw; 
           font-style: normal;
@@ -208,10 +200,10 @@
           text-decoration: none;
       }
       
-      .client-column {  
-          position: absolute;  
-          left: 82.6vw;
-          /* padding-left: -4vw; */
+      .client-column {            
+          position: relative; 
+          margin-left: 15.4vw;          
+
           
       }       
       
@@ -234,18 +226,13 @@
               font-size: 0.75em;
               line-height: 1vh;
               color: #000000;
-              }
-    
-
-  
-
-/* iPhone 5/SE */
+              } 
+              
+              
 
             @media only screen 
 and (min-device-width: 320px) 
 and (min-device-height: 568px)
-/* and (max-device-width: 374px) 
-and (max-device-height: 666px) */
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
   .laura-font-about {
@@ -263,7 +250,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
   left: 2.6vw;        
 }
 
-  /* About Page */
   .about { 
     width: 100vw;
     height: 100vh;
@@ -310,7 +296,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     left: 5.8vw;
     }
 
-    /* Header */
+
   .rectangle {
     position: absolute;
     top: 94vh;
@@ -332,6 +318,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       background: #FFFFFF;
       }
       .header-item {
+        margin-top: 0vh;
         height: 4vh;
         width: 12vw;   
         font-family: 'Archivo', sans-serif;
@@ -341,30 +328,25 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-style: normal;
         font-weight: normal;
         text-decoration: none;
-        left: 10vw; 
+        left: 8vw; 
         top: 1vh;       
         }
 
         .about-item {    
-          position: absolute;    
-          /* bottom: 20vh; */
+          position: absolute;            
           color: #FFFFFF;
           }
           
           .digital-item { 
-          position: absolute;        
-          /* bottom: 20vh; */
+          position: absolute;                
           color: #000000;
           
           }
           
           .print-item {    
           position: absolute; 
-          /* top: 5.5vh; */
           color: #000000;
-          }
-
-          /* Digital Page */
+          }          
 
           .digital {
             width: 100vw;
@@ -412,9 +394,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
             
             .project {
                 display: grid;
-                grid-template-columns: 4fr 2fr;
-                /* margin-bottom: 1vh; */
-                line-height: 2.4vh;
+                grid-template-columns: 2fr 2fr;                
+                line-height: 2vh;
                 width: 88vw; 
                 font-style: normal;
                 font-weight: 500;
@@ -428,9 +409,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
             }
             
             .client-column {  
-                position: absolute;  
-                left: 66vw;
-                /* padding-left: -4vw; */                
+                position: relative;  
+                margin-left: 22vw;                               
             }       
                         
             
@@ -449,14 +429,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
    
 }
 
-/* iPhone 6/7/8 */
-
 @media only screen 
 and (min-device-width: 375px) 
 and (min-device-height: 667px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
-    /* Header */
     .header-item {    
       top: 1.6vh;
       text-align: center;
@@ -467,7 +444,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 34vw;
     height: 6.2vh;        
     }
-          /* Digital & Print Pages */                
             .column-label-left {
                 position: absolute;
             width: 19.7841726619vw;
@@ -479,22 +455,19 @@ and (-webkit-min-device-pixel-ratio: 2) {
             font-size: 0.6em;
             line-height: 1vh;
             color: #000000;
-            }                                                 
+          }                                                 
 
-            .client-column {  
-                position: absolute;  
-                left: 69vw;
-                /* padding-left: -4vw; */                
-            }                                                                       
+          .client-column {  
+            position: relative;  
+            margin-left: 24.4vw;                               
+        }                                                                    
 }
 
-/* iPhone X */
 @media only screen 
 and (min-device-width: 414px) 
 and (min-device-height: 736px)
 and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2) {
-     /* Digital & Print Pages */                
+and (-webkit-min-device-pixel-ratio: 2) {                  
      .column-label-left {
       position: absolute;
   width: 19.7841726619vw;
@@ -509,13 +482,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }                                                 
 
   .client-column {  
-      position: absolute;  
-      left: 70.4vw;
-      /* padding-left: -4vw; */                
-  }     
+    position: relative;  
+    margin-left: 26vw;                               
+}         
 }
 
-/* iPad */
 @media only screen 
 and (min-device-width: 768px) 
 and (min-device-height: 1024px)
@@ -534,10 +505,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }                                                 
 
   .client-column {  
-      position: absolute;  
-      left: 76vw;
-      /* padding-left: -4vw; */                
-  }   
+    position: relative;  
+    margin-left: 32vw;                               
+}       
   .rectangle {
     position: absolute;
     top: 94vh;
