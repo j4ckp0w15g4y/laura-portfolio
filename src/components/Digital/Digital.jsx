@@ -5,7 +5,8 @@ class Digital extends Component {
     render() { 
         const svgPath = `${LauraHeroDigital}`;       
         return (
-            <div className="digital">
+            <div className="digital-container">
+            <div className="content-wrap">
                 <div>
                     <span className="title-heading" id="project-header">Project</span>
                     <div className="column-label-left title-heading">
@@ -14,7 +15,6 @@ class Digital extends Component {
                 </div>
 
                 <div className="projects-underline"></div>
-
                 <div className="projects-table">
                     <a href="https://www.itsnicethat.com/articles/christo-geoghegan-banished-of-balsapuerto-photography-311018" className="link-edit" target="_blank">
                         <div className="project">
@@ -92,12 +92,41 @@ class Digital extends Component {
                             <span className="client-column">Hero</span>
                         </div>
                     </a>
-                </div>
+
+                    <a href="https://www.wonderlandmagazine.com/2016/10/04/im-lovin-2/" className="link-edit" target="_blank">
+                        <div className="project">
+                            <span>I'm Lovin' It</span>
+                            <span className="client-column">Wonderland</span>
+                        </div>
+                    </a>            
+                    
+                    <a href="https://www.huckmag.com/art-and-culture/photography-2/the-mysterious-modern-world-of-roma-witchcraft/" className="link-edit" target="_blank">
+                        <div className="project">
+                            <span>The mysterious modern world of Roma witchcraft</span>
+                            <span className="client-column">Huck</span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.huckmag.com/art-and-culture/photography-2/coming-age-cambodias-young-buddhist-monks/" className="link-edit" target="_blank">
+                        <div className="project">
+                            <span>Coming of age with Cambodia’s young Buddhist monks</span>
+                            <span className="client-column">Huck</span>
+                        </div>
+                    </a>
+
+                    <a href="https://theculturetrip.com/north-america/usa/articles/these-are-the-new-feminist-writers-owning-the-digital-age/" className="link-edit" target="_blank">
+                        <div className="project">
+                            <span>These Are the New Feminist Writers Owning the Digital Age</span>
+                            <span className="client-column">Culture Trip</span>
+                        </div>
+                    </a>                                        
+                </div>  
+                </div> 
+                                            
                 <img
                     src={svgPath}
                     className="laura-font-digital"
-                    alt="website logo" />
-
+                    alt="website logo" />                 
             </div>
         );
     }
