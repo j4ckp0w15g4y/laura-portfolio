@@ -1,4 +1,4 @@
-   html {
+      html {
     height: 100%;
   }   
   
@@ -20,6 +20,7 @@
   .two {
   top: 33vh;
   background: #A5A5A5;
+  
   }
   
   .three {
@@ -27,9 +28,9 @@
   background: #FFFFFF;
   }
   
-  .header-item {
+  .header-item {    
     margin-top: 6vh;
-  height: 8vh;
+  height: auto;
   width: 12vw;   
   font-family: 'Archivo', sans-serif;
   font-size: 0.75rem;
@@ -38,7 +39,7 @@
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
-  left: -2vw;
+  /* left: -6vw; */
   }
   
   .about-item {    
@@ -51,7 +52,6 @@
   position: absolute;
   top: 5.5vh;
   color: #000000;
-  
   }
   
   .print-item {    
@@ -111,10 +111,11 @@
     }
     
     .laura-font-about {
-        position: fixed;
-        bottom: -3vh;   
+        position: absolute;
+        bottom: 0;   
         width: 95vw;
-        left: 4.4vw;    
+        left: 4.4vw;  
+        height: 34vh;  
         filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);
     }
     
@@ -123,28 +124,49 @@
         font-weight: 800;
     }
   
-  .print {
-    width: 100vw;
-    height: 100vh;
+  .print-container {
+    width: 100vw;    
     background: #FFFFFF;
     font-family: 'Archivo', sans-serif;
-    }
-    
-    .print-image-landscape {
-        width: 14.3055555556vw;
-        height: 14.8888888889vh;
-        display: block;        
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     }
 
-    .digital {
+    .content-wrap {
+      flex:1;
+    }
+
+    .project-image-landscape {
+      width: 18vw;
+        height: 20vh;
+        display: inline-block;
+        margin-right: 2vw;
+    }
+
+    .project-image-hover {
+      width:
+    }
+
+    .project-image-portrait {
+      width: 10vw;
+        height: 20vh;
+        display: inline-block;
+    }
+  
+
+/* DIGITAL */
+    .digital-container {
       width: 100vw;
-      height: 100vh;
       background-color: #A5A5A5;
-      font-family: 'Archivo', sans-serif;
+      font-family: 'Archivo', sans-serif; 
+      display: flex;
+    flex-direction: column;
+    min-height: 100vh;     
       }
       
       .column-label-left {
-          position: absolute;
+          position: relative;
       width: 10vw;
       height: 1.77777778vh;
       left: 88.8vw;
@@ -177,7 +199,8 @@
           position: relative;
           width: 92vw;
           left: 5.8vw;    
-          top: 8vh;              
+          top: 6vh; 
+          overflow: scroll;                      
       }
       
       .project {
@@ -205,15 +228,18 @@
           margin-left: 15.4vw;          
 
           
-      }       
-      
+      }   
+
+
           .laura-font-digital {
-              position: fixed;
-              bottom: -3vh;    
+              position: relative;            
               width: 95vw;
-              left: 4.4vw;        
-              max-height: 100%;
-          }
+              left: 4.2vw;        
+              height: 34vh;
+              bottom: 0vh; 
+              display: block;
+              margin-top: 3em;
+              }
       
           #project-header {
               position: absolute;
@@ -229,7 +255,7 @@
               } 
               
               
-
+/* iPhone 5SE */
             @media only screen 
 and (min-device-width: 320px) 
 and (min-device-height: 568px)
@@ -328,7 +354,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-style: normal;
         font-weight: normal;
         text-decoration: none;
-        left: 8vw; 
+        left: 10vw; 
         top: 1vh;       
         }
 
@@ -359,7 +385,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
                 position: absolute;
             width: 19.7841726619vw;
             height: 1.77777778vh;
-            left: 72vw;
+            left: 76vw;
             font-family: 'Archivo', sans-serif;
             font-style: normal;
             font-weight: 500;
@@ -394,7 +420,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
             
             .project {
                 display: grid;
-                grid-template-columns: 2fr 2fr;                
+                grid-template-columns: 2.4fr 2fr;                
                 line-height: 2vh;
                 width: 88vw; 
                 font-style: normal;
@@ -430,6 +456,105 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media only screen 
+and (min-device-width: 568px)
+and (min-device-height: 320px) 
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .info {
+    position: absolute;
+    width: 20vw;
+    height: 5.333vh;
+    left: 5.8vw;
+    top: 3vh;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.5em;
+    line-height: 4vh;
+    color: #FFFFFF;
+    }
+
+    .left-text-box {
+      position: absolute;
+      width: 24.9640288vw;
+      height: 5.333vh;
+      left: 27.6388888889vw;
+      top: 3vh;
+      font-family: 'Archivo', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.5em;
+      line-height: 4vh;
+      color: #FFFFFF;
+      }
+
+      .bio {
+      position: absolute;
+    width: 44.2vw;
+    height: 41.7vh;
+    top: 2vh;
+    font-size: 0.5em;
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.2vh;
+    color: #FFFFFF;
+    left: 53.6vw;
+    }
+
+    .header-item {
+      margin-top: 4vh;
+    height: 8vh;
+    width: 12vw;   
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.5rem;
+    text-align: right;
+    transform: rotate(-90deg);
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    left: -2.4vw;
+    }
+
+    .column-label-left {
+      position: relative;
+  width: 10vw;
+  height: 1.77777778vh;
+  left: 87.2vw;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.5em;
+  line-height: 1vh;
+  color: #000000;
+  } 
+
+  .project {
+    display: grid;
+    grid-template-columns: 12fr 4.4fr;          
+    line-height: 3vh;
+    width: 90vw; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.5em;
+    border-bottom: 0.05em solid transparent;
+}      
+#project-header {
+  position: absolute;
+  height: 1vh;
+  width: 88.25vw;
+  left: 5.8vw;
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.5em;
+  line-height: 1vh;
+  color: #000000;
+  } 
+
+}
+
+@media only screen 
 and (min-device-width: 375px) 
 and (min-device-height: 667px)
 and (orientation: portrait)
@@ -448,7 +573,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
                 position: absolute;
             width: 19.7841726619vw;
             height: 1.77777778vh;
-            left: 74.6vw;
+            left: 78vw;
             font-family: 'Archivo', sans-serif;
             font-style: normal;
             font-weight: 500;
@@ -472,7 +597,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       position: absolute;
   width: 19.7841726619vw;
   height: 1.77777778vh;
-  left: 76vw;
+  left: 79.6vw;
   font-family: 'Archivo', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -487,6 +612,29 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }         
 }
 
+/* iPhone X */
+
+@media only screen 
+and (min-device-height: 375px) 
+and (min-device-width: 812px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2){
+  .header-item {
+    margin-top: 7vh;    
+  height: 8vh;
+  width: 12vw;   
+  font-family: 'Archivo', sans-serif;
+  font-size: 0.6rem;
+  text-align: right;
+  transform: rotate(-90deg);
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  left: -3vw;
+  }
+}
+
+/* iPad */
 @media only screen 
 and (min-device-width: 768px) 
 and (min-device-height: 1024px)
@@ -501,7 +649,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .column-label-left {
       position: absolute;
-  left: 82vw;  
+  left: 81.6vw;  
   }                                                 
 
   .client-column {  
@@ -513,8 +661,47 @@ and (-webkit-min-device-pixel-ratio: 2) {
     top: 94vh;
     width: 33vw;
     height: 6vh;        
-    } 
+    }
+    
+    .project {      
+      grid-template-columns: 2fr 2fr;                      
+  }        
 }
+
+@media only screen 
+and (min-device-height: 768px) 
+and (min-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
+    font-size: 0.78rem;
+  }
+  .header-item {    
+    /* top: 8vh; */
+    left: -2.2vw;       
+    }
+    .about-item {    
+      position: absolute;    
+      top: 4vh;
+      color: #FFFFFF;
+      }
+      
+      .digital-item { 
+      position: absolute;
+      top: 4vh;
+      color: #000000;
+      
+      }
+      
+      .print-item {    
+      position: absolute; 
+      top: 4vh;
+      color: #000000;
+      }
+
+}
+
+/* iPad Pro */
 
 @media only screen 
 and (min-device-width: 1024px) 
@@ -526,5 +713,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 }
 
+@media only screen 
+and (device-height: 1024px) 
+and (device-width: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
+    font-size: 1rem;
+  }
+}
 
   
