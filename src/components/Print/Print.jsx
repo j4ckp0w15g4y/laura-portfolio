@@ -48,7 +48,6 @@ class Print extends Component {
     render() {
         const svgPathTwo = `${LauraHeroDigital}`;
         const showing = this.state.showing;      
-        console.log(showing)  
         const showingTwo = this.state.showingTwo;
         const showingThree = this.state.showingThree;
         const showingFour  = this.state.showingFour;
