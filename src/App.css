@@ -1,3 +1,8 @@
+/* svg.banner {
+  width: 100%; 
+ height: auto;
+} */
+
       html {
     height: 100%;
   }   
@@ -6,7 +11,7 @@
     position: absolute;    
   }
   .rectangle {
-  position: absolute;
+  position: fixed;
   width: 4vw;
   height: 34vh;
   left: 0vw;
@@ -114,7 +119,7 @@
         position: absolute;
         bottom: 0;   
         width: 95vw;
-        left: 4.4vw;  
+        left: 4.2vw;  
         height: 34vh;  
         filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);
     }
@@ -135,6 +140,7 @@
 
     .content-wrap {
       flex:1;
+      /* margin-bottom: 1em; */
     }
 
     .project-image-landscape {
@@ -142,16 +148,19 @@
         height: 20vh;
         display: inline-block;
         margin-right: 2vw;
-    }
-
-    .project-image-hover {
-      width:
+        margin-top: 1vh;
     }
 
     .project-image-portrait {
       width: 10vw;
         height: 20vh;
         display: inline-block;
+        margin-right: 2vw;
+        margin-top: 1vh;
+    }
+
+    .project-image-hover {
+      width:
     }
   
 
@@ -263,18 +272,26 @@ and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
   .laura-font-about {
     position: absolute;
-    bottom: 6vh;   
-    width: 95vw;
-    left: 2.6vw;    
+    bottom: 4vh;
+    width: 94vw;
+    left: 4vw;
+    height: 16vh;    
+    /* margin-top: 2.6em; */
     filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);    
 }
 
+
 .laura-font-digital {
-  position: absolute;
-  bottom: 6vh;    
-  width: 95vw;
-  left: 2.6vw;        
-}
+              position: relative;            
+              width: 94vw;
+              left: 4vw;        
+              height: 16vh;
+              bottom: 4vh;
+              margin-bottom: 0vh; 
+              /* display: block; */
+              /* margin-top: em; */
+              padding: 0;
+              }
 
   .about { 
     width: 100vw;
@@ -324,10 +341,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 
   .rectangle {
-    position: absolute;
+    position: fixed;
     top: 94vh;
     width: 33vw;
-    height: 6vh;        
+    height: 6vh; 
+    z-index: 1;       
     }
 
     .one {
@@ -452,6 +470,27 @@ and (-webkit-min-device-pixel-ratio: 2) {
                     line-height: 1vh;
                     color: #000000;
                     }
+
+    .project-image-landscape {
+      width: 24vw;
+        height: 10vh;
+        display: inline-block;
+        margin-right: 2vw;
+        margin-top: 1vh;
+    }
+
+    .project-image-portrait {
+      width: 14vw;
+        height: 10vh;
+        display: inline-block;
+        margin-right: 2vw;
+        margin-top: 1vh;
+    }
+
+    .content-wrap {
+      flex:1;
+      margin-bottom: 0.88em;
+    }
    
 }
 
@@ -564,7 +603,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       text-align: center;
       }
   .rectangle {
-    position: absolute;
+    position: fixed;
     top: 94vh;
     width: 34vw;
     height: 6.2vh;        
@@ -585,7 +624,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
           .client-column {  
             position: relative;  
             margin-left: 24.4vw;                               
-        }                                                                    
+        }  
+
+        .laura-font-digital {            
+              margin-top: 3em;
+              }                                                                  
 }
 
 @media only screen 
@@ -609,10 +652,29 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .client-column {  
     position: relative;  
     margin-left: 26vw;                               
-}         
+}    
+
+.laura-font-digital {            
+              margin-top: 3.4em;
+              }  
 }
 
 /* iPhone X */
+
+@media only screen 
+and (min-device-width: 375px) 
+and (min-device-height: 812px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2){
+  .project-image-landscape {      
+        height: 8vh;        
+    }
+
+    .project-image-portrait {
+      width: 14vw;
+        height: 8vh;        
+    }
+}
 
 @media only screen 
 and (min-device-height: 375px) 
@@ -632,6 +694,28 @@ and (-webkit-min-device-pixel-ratio: 2){
   text-decoration: none;
   left: -3vw;
   }
+ .laura-font-about {
+        position: absolute;
+        bottom: 0vh;   
+        width: 95vw;
+        left: 4.2vw;  
+        height: 39vh;  
+        filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);
+    }
+
+    .laura-font-digital {
+              position: relative;            
+              width: 95vw;
+              left: 4.2vw;        
+              height: 39vh;
+              bottom: 0vh; 
+              display: block;
+              margin-top: 1.6em;
+              margin-bottom: 0vh;
+              }
+
+
+
 }
 
 /* iPad */
@@ -643,6 +727,29 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
     font-size: 0.8rem;
   }
+
+  .laura-font-about {
+    position: absolute;
+    bottom: 0vh;
+    margin-bottom: 6vh;   
+    width: 90vw;
+    left: 5.4vw;
+    height: 18vh;    
+    filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);    
+}
+
+
+.laura-font-digital {
+              position: relative;            
+              width: 90vw;
+              left: 5.4vw;        
+              height: 18vh;
+              bottom: 0vh;
+              margin-bottom: 6vh; 
+              /* display: block; */
+              margin-top: 4.8em;
+              }
+              
   .header-item {    
     top: 2vh;       
     }
@@ -657,7 +764,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-left: 32vw;                               
 }       
   .rectangle {
-    position: absolute;
+    position: fixed;
     top: 94vh;
     width: 33vw;
     height: 6vh;        
@@ -665,7 +772,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     .project {      
       grid-template-columns: 2fr 2fr;                      
-  }        
+  }    
+
+  .project-image-landscape {      
+        height: 10vh;        
+    }
+
+    .project-image-portrait {
+      width: 14vw;
+        height: 12vh;        
+    }    
 }
 
 @media only screen 
@@ -699,6 +815,33 @@ and (-webkit-min-device-pixel-ratio: 2) {
       color: #000000;
       }
 
+      .laura-font-about {
+        position: absolute;
+        bottom: 0vh;   
+        width: 95vw;
+        left: 4.2vw;  
+        height: 34vh;  
+        filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);
+    }
+
+    .laura-font-digital {
+              position: relative;            
+              width: 94vw;
+              left: 4.2vw;        
+              height: 34vh;             
+              bottom: 0vh;
+              display: block;
+              margin-top: 2em;              
+              }
+
+              .project-image-landscape {      
+        height: 18vh;        
+    }
+
+    .project-image-portrait {
+        height: 18vh;        
+    }      
+
 }
 
 /* iPad Pro */
@@ -711,6 +854,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
     font-size: 1rem;
   }
+
+  .laura-font-digital {
+    margin-top: 6.4em;
+  }
 }
 
 @media only screen 
@@ -720,7 +867,7 @@ and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
     font-size: 1rem;
-  }
+  }     
 }
 
   
