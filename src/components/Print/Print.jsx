@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LauraHeroDigital from '../../laura-isabella-two.svg';
+import LauraHeroDigital from '../../LI_Logo_Black.svg';
 import JHusOne from '../../Assets/j-hus-1.png'
 import JHusTwo from '../../Assets/j-hus-2.png'
 import DanaOne from '../../Assets/dana-1.png'
