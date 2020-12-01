@@ -245,7 +245,7 @@
       
       .client-column {            
           position: relative; 
-          margin-left: 15.4vw;
+          margin-left: 10vw;
           text-align: right;          
 
           
@@ -333,7 +333,7 @@ and (orientation: portrait)
       font-family: 'Archivo', sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 0.8rem;
+      font-size: 0.6rem;
       line-height: 1.25em;
       color: #FFFFFF;
       }
@@ -414,12 +414,12 @@ and (orientation: portrait)
                 position: absolute;
             width: 19.7841726619vw;
             height: 1.77777778vh;
-            left: 76vw;
+            left: 74vw;
             font-family: 'Archivo', sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 0.6em;
-            line-height: 1vh;
+            line-height: 1.2em;
             color: #000000;
             }       
             
@@ -467,7 +467,7 @@ and (orientation: portrait)
             
             .client-column {  
                 position: relative;  
-                margin-left: 22vw;
+                margin-left: 10vw;
                 text-align: right;                               
             }       
                         
@@ -481,7 +481,7 @@ and (orientation: portrait)
                     font-style: normal;
                     font-weight: 500;
                     font-size: 0.6em;
-                    line-height: 1vh;
+                    line-height: 1.2em;
                     color: #000000;
                     }
 
@@ -636,8 +636,7 @@ and (min-device-height: 667px)
 and (orientation: portrait)
 /* and (-webkit-min-device-pixel-ratio: 2) */
  {
-    .header-item {    
-      top: 1.6vh;
+    .header-item {          
       text-align: center;
       }
   .rectangle {
@@ -696,17 +695,17 @@ and (orientation: portrait)
       position: absolute;
   width: 19.7841726619vw;
   height: 1.77777778vh;
-  left: 79.6vw;
+  left: 74vw;
   font-family: 'Archivo', sans-serif;
   font-style: normal;
   font-weight: 500;  
-  line-height: 1vh;
+  line-height: 1.2em;
   color: #000000;
   }                                                 
 
   .client-column {  
     position: relative;  
-    margin-left: 26vw; 
+    margin-left: 10vw; 
     text-align: right;                              
 }    
 
@@ -768,7 +767,7 @@ and (orientation: landscape)
   .header-item {
     margin-top: 7vh;    
   height: 8vh;
-  width: 12vw;   
+  width: 14vw;   
   font-family: 'Archivo', sans-serif;  
   text-align: right;
   transform: rotate(-90deg);
@@ -839,7 +838,7 @@ and (orientation: portrait)
 
     .column-label-left {
       position: absolute;
-  left: 81.6vw;  
+  left: 74vw;  
   }                                                 
 
   .client-column {  
@@ -878,9 +877,8 @@ and (orientation: landscape)
     font-size: 0.94rem;
   }
   .header-item {    
-    /* top: 8vh; */
-    left: -2.2vw;
-    position: sticky;       
+    /* top: 8vh; */    
+    position: fixed;       
     }
     .about-item {    
       position: absolute;    
@@ -984,7 +982,7 @@ and (min-width: 501px)
 and (max-width: 601px)
 and (orientation: landscape) {
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .laura-font-digital {
     /* margin-top: 1em; */
