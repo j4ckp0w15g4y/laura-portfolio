@@ -8,17 +8,21 @@ class About extends Component {
             <div className="about-container">
                         <div className="content-wrap">
 
-                <div className="info">
-                    <p>Laura Isabella</p>
-                    <p>Freelance Writer and Digital Editor</p>
-                    <p>Brand Consultant / Special Projects</p>
-                </div>
+                <p className="info">
+                   <span className="laura-name"> Laura Isabella</span>
+                    <br />
+                    Freelance Writer and Digital Editor
+                    <br />
+                    Brand Consultant / Special Projects
+                </p>
 
-                <div className="left-text-box">
-                    <p>E: hello@lauraisabella.co.uk</p>
-                    <p>M: +447834222219</p>
-                    <p>lauraisabella.co.uk</p>
-                </div>
+                <p className="left-text-box">
+                    E: hello@lauraisabella.co.uk
+                    <br />
+                    M: +447834222219
+                    <br />
+                    lauraisabella.co.uk
+                </p>
 
                 <div className="bio">
                     <p>A highly skilled writer, digital editor, and brand consultant; Laura Isabella has been working within the creative industries with a key focus on fashion, youth culture and championing emerging talent for the past eight years. Laura has worked both freelance and in-house for a plethora of titles, with roles including Online Editor at <span className="brand-italic">Wonderland Magazine</span> and Social Media Manager at <span className="brand-italic">The Business of Fashion</span> and <span className="brand-italic">Hunger TV</span>. She has a keen interest in working creatively on bespoke advertorial content and has previously worked on special projects with brands including <span className="brand-italic">Chanel</span>, <span className="brand-italic">Dior</span>, <span className="brand-italic">Gucci</span>, <span className="brand-italic">Miu Miu</span>, and <span className="brand-italic">McQ</span>.</p>

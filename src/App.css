@@ -3,12 +3,15 @@
  height: auto;
 } */
 
+
+
       html {
     height: 100%;
   }   
   
   .header-nav {
-    position: absolute;    
+    position: fixed; 
+    z-index: 100000;   
   }
   .rectangle {
   position: fixed;
@@ -75,6 +78,11 @@
     min-height: 100vh;   
     }
     
+
+    .laura-name {
+      font-weight: 600;      
+    }
+
     .info {
     position: absolute;
     width: 20vw;
@@ -83,9 +91,9 @@
     top: 3vh;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.75em;
-    line-height: 2vh;
+    line-height: 1.25em;
     color: #FFFFFF;
     }
     
@@ -99,8 +107,8 @@
     font-style: normal;
     font-weight: normal;
     font-size: 0.75em;
-    line-height: 2vh;
-    color: #FFFFFF;
+    line-height: 1.25em;
+    color: #FFFFFF;    
     }
     
     .bio {
@@ -111,7 +119,7 @@
     font-size: 0.75em;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 3vh;
     color: #FFFFFF;
     left: 53.6vw;
@@ -187,6 +195,7 @@
       font-size: 0.75em;
       line-height: 1vh;
       color: #000000;
+      text-align: right;
       }       
       
       .title-heading {
@@ -210,7 +219,7 @@
           position: relative;
           width: 92vw;
           left: 5.8vw;    
-          top: 6vh; 
+          top: 5vh; 
           overflow: scroll;                      
       }
       
@@ -220,7 +229,7 @@
           line-height: 3vh;
           width: 90vw; 
           font-style: normal;
-          font-weight: 500;
+          font-weight: 400;
           font-size: 0.75em;
           border-bottom: 0.05em solid transparent;
       }
@@ -236,7 +245,8 @@
       
       .client-column {            
           position: relative; 
-          margin-left: 15.4vw;          
+          margin-left: 15.4vw;
+          text-align: right;          
 
           
       }   
@@ -274,7 +284,7 @@ and (orientation: portrait)
 /* and (-webkit-min-device-pixel-ratio: 2) */
  {
   .laura-font-about {
-    position: relative;
+    position: sticky;
     bottom: 6vh;
     width: 90vw;
     left: 6vw;
@@ -282,9 +292,12 @@ and (orientation: portrait)
     filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(257deg) brightness(105%) contrast(100%);    
 }
 
+.laura-name {
+      font-weight: 600;      
+    }
 
 .laura-font-digital {
-              position: relative;            
+              position: sticky;            
               width: 90vw;
               left: 6vw;        
               height: 11vh;
@@ -305,9 +318,9 @@ and (orientation: portrait)
     top: 3vh;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.6rem;
-    line-height: 1vh;
+    line-height: 1.25em;
     color: #FFFFFF;
     }
 
@@ -316,23 +329,23 @@ and (orientation: portrait)
       width: 60vw;
       height: 5.333vh;
       left: 5.8vw;
-      top: 14vh;
+      top: 12vh;
       font-family: 'Archivo', sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 0.6rem;
-      line-height: 1vh;
+      font-size: 0.8rem;
+      line-height: 1.25em;
       color: #FFFFFF;
       }
 
       .bio {
         position: absolute;
     width: 88vw;    
-    top: 30vh;
+    top: 24vh;
     font-size: 0.6rem;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 2vh;
     color: #FFFFFF;
     left: 5.8vw;
@@ -343,8 +356,7 @@ and (orientation: portrait)
     position: fixed;
     top: 94vh;
     width: 33vw;
-    height: 6vh; 
-    z-index: 1;       
+    height: 6vh;           
     }
 
     .one {
@@ -432,18 +444,20 @@ and (orientation: portrait)
                 position: relative;
                 width: 90.4vw;
                 left: 5.8vw;    
-                top: 8vh;    
+                top: 6.4vh;    
             }
             
             .project {
                 display: grid;
-                grid-template-columns: 2.4fr 2fr;                
-                line-height: 2vh;
+                grid-template-columns: 2fr 1fr;                
+                line-height: 1em;
                 width: 88vw; 
                 font-style: normal;
-                font-weight: 500;
+                font-weight: 400;
                 font-size: 0.6em;
-                border-bottom: 0.05em solid #000000;
+                border-bottom: 0.05em solid #000000;  
+                padding-top: 0.2em; 
+                padding-bottom: 0.2em; 
             }          
             
             .link-edit {
@@ -453,7 +467,8 @@ and (orientation: portrait)
             
             .client-column {  
                 position: relative;  
-                margin-left: 22vw;                               
+                margin-left: 22vw;
+                text-align: right;                               
             }       
                         
             
@@ -475,7 +490,7 @@ and (orientation: portrait)
         height: 10vh;
         display: inline-block;
         margin-right: 2vw;
-        margin-top: 1vh;
+        margin-top: 1vh;        
     }
 
     .project-image-portrait {
@@ -509,10 +524,10 @@ and (orientation: landscape)
     top: 3vh;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.5em;
-    line-height: 4vh;
-    color: #FFFFFF;
+    line-height: 1.25em;
+    color: #FFFFFF;    
     }
 
     .left-text-box {
@@ -525,7 +540,7 @@ and (orientation: landscape)
       font-style: normal;
       font-weight: normal;
       font-size: 0.5em;
-      line-height: 4vh;
+      line-height: 1.25em;
       color: #FFFFFF;
       }
 
@@ -534,11 +549,11 @@ and (orientation: landscape)
     width: 44.2vw;
     height: 41.7vh;
     top: 2vh;
-    font-size: 0.5em;
+    font-size: 0.6em;
     font-family: 'Archivo', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    line-height: 3.2vh;
+    font-weight: 400;
+    line-height: 1.25em;
     color: #FFFFFF;
     left: 53.6vw;
     }
@@ -561,22 +576,22 @@ and (orientation: landscape)
       position: relative;
   width: 10vw;
   height: 1.77777778vh;
-  left: 87.2vw;
+  left: 85.6vw;
   font-family: 'Archivo', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 0.5em;
-  line-height: 1vh;
+  line-height: 0.5em;
   color: #000000;
   } 
 
   .project {
     display: grid;
     grid-template-columns: 12fr 4.4fr;          
-    line-height: 3vh;
+    line-height: 1.25em;
     width: 90vw; 
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 0.5em;
     border-bottom: 0.05em solid transparent;
 }      
@@ -589,7 +604,7 @@ and (orientation: landscape)
   font-style: normal;
   font-weight: 500;
   font-size: 0.5em;
-  line-height: 1vh;
+  line-height: 0.5em;
   color: #000000;
   } 
 
@@ -635,7 +650,7 @@ and (orientation: portrait)
                 position: absolute;
             width: 19.7841726619vw;
             height: 1.77777778vh;
-            left: 78vw;
+            left: 74vw;
             font-family: 'Archivo', sans-serif;
             font-style: normal;
             font-weight: 500;
@@ -646,7 +661,8 @@ and (orientation: portrait)
 
           .client-column {  
             position: relative;  
-            margin-left: 24.4vw;                               
+            margin-left: 8vw;
+            text-align: right;                               
         }  
 
         .laura-font-digital {            
@@ -690,7 +706,8 @@ and (orientation: portrait)
 
   .client-column {  
     position: relative;  
-    margin-left: 26vw;                               
+    margin-left: 26vw; 
+    text-align: right;                              
 }    
 
 
@@ -721,7 +738,7 @@ and (orientation: portrait)
 {             
    
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
-    font-size: 0.64rem;
+    font-size: 0.8rem;
   }   
   .project-image-landscape {      
         height: 8vh;        
@@ -827,7 +844,8 @@ and (orientation: portrait)
 
   .client-column {  
     position: relative;  
-    margin-left: 32vw;                               
+    margin-left: 32vw;      
+    text-align: right;                         
 }       
   .rectangle {
     position: fixed;
@@ -857,12 +875,12 @@ and (orientation: landscape)
 /* and (-webkit-min-device-pixel-ratio: 2) */
  {
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
-    font-size: 0.78rem;
+    font-size: 0.94rem;
   }
   .header-item {    
     /* top: 8vh; */
     left: -2.2vw;
-    position: fixed;       
+    position: sticky;       
     }
     .about-item {    
       position: absolute;    
@@ -884,7 +902,7 @@ and (orientation: landscape)
       }
 
       .laura-font-about {
-        position: relative;
+        position: sticky;
         bottom: 0vh;   
         width: 92vw;
         left: 6vw;  
@@ -893,7 +911,7 @@ and (orientation: landscape)
     }
 
     .laura-font-digital {
-              position: relative;            
+              position: sticky;            
               width: 92vw;
               left: 6vw;        
               height: 28vh;             
