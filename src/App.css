@@ -9,6 +9,10 @@
     height: 100%;
     /* height: -webkit-fill-available; */
   }   
+
+  .App {
+    overscroll-behavior: none;
+  }
   
   .header-nav {
     position: fixed; 
@@ -287,20 +291,7 @@ and (min-device-height: 568px)
 and (orientation: portrait)
 /* and (-webkit-min-device-pixel-ratio: 2) */
  {
-
-   .about-container { 
-  height: calc(100vh - calc(100vh - 100%));
-  /* margin-bottom: -12vh; */
-    }
-      .digital-container {          
-       height: calc(100vh - calc(100vh - 100%));
-      /* margin-bottom: -12vh; */
-      } 
-
-      .print-container {  
-      height: calc(100vh - calc(100vh - 100%));
-      /* margin-bottom: -12vh; */
-    } 
+  
 
 
     
@@ -666,17 +657,7 @@ and (orientation: portrait)
 /* and (-webkit-min-device-pixel-ratio: 2) */
  {
 
-   .about-container {   
-  margin-bottom: -12.2vh;
-    }
-      .digital-container {                 
-      margin-bottom: -12.2vh;
-      } 
-
-      .print-container {        
-      margin-bottom: -12.2vh;
-    }
-
+  
     .header-item {          
       text-align: center;
       }
@@ -890,16 +871,6 @@ and (orientation: portrait)
     text-align: right;                         
 }       
 
-.about-container {   
-  margin-bottom: -6vh;
-    }
-      .digital-container {                 
-      margin-bottom: -6vh;
-      } 
-
-      .print-container {        
-      margin-bottom: -6vh;
-    }
 
   .rectangle {
     position: fixed;
