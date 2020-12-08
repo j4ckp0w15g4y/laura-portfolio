@@ -366,19 +366,22 @@ and (orientation: portrait)
 
     .one {
       background: #000000; 
-      top: unset;     
+      top: unset;  
+      overflow: hidden;   
       }
       
       .two {
       left: 33vw;
       background: #A5A5A5;
       top: unset;
+      overflow: hidden;
       }
       
       .three {
       left: 66vw;
       background: #FFFFFF;
       top: unset;
+      overflow: hidden;
       }
       .header-item {
         margin-top: 0vh;
@@ -651,7 +654,7 @@ and (orientation: portrait)
     width: 34vw;
     bottom: 0;
     height: 6.2vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* margin-bottom: 6.2vh;         */
     }
             .column-label-left {
