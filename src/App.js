@@ -4,6 +4,8 @@ import Header from './components/Header/Header'
 import Print from './components/Print/Print'
 import Digital from './components/Digital/Digital'
 import About from './components/About/About'
+import Div100vh from 'react-div-100vh'
+
 
 import {
   Switch,
@@ -13,6 +15,7 @@ import {
 class App extends Component {
   render() {    
   return (
+    <Div100vh>
     <div className="App">
       <header>
         <Header />
@@ -24,6 +27,7 @@ class App extends Component {
         <Route path="/digital" component={Digital} />
       </Switch>    
     </div>
+    </Div100vh>
   );
   }
 }
