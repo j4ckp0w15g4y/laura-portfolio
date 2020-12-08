@@ -358,23 +358,27 @@ and (orientation: portrait)
   .rectangle {
     position: fixed;
     top: 94vh;
+    /* bottom: 0; */
     width: 33vw;
     height: 6vh;
-    margin-bottom: 6vh;           
+    /* margin-bottom: 6vh;            */
     }
 
     .one {
-      background: #000000;
+      background: #000000; 
+      top: unset;     
       }
       
       .two {
       left: 33vw;
       background: #A5A5A5;
+      top: unset;
       }
       
       .three {
       left: 66vw;
       background: #FFFFFF;
+      top: unset;
       }
       .header-item {
         margin-top: 0vh;
@@ -643,10 +647,11 @@ and (orientation: portrait)
       }
   .rectangle {
     position: fixed;
-    top: 94vh;
+    /* top: 94vh; */
     width: 34vw;
+    bottom: 0;
     height: 6.2vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* margin-bottom: 6.2vh;         */
     }
             .column-label-left {
