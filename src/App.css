@@ -290,16 +290,16 @@ and (orientation: portrait)
 
    .about-container { 
   height: calc(100vh - calc(100vh - 100%));
-  margin-bottom: -6vh;
+  /* margin-bottom: -12vh; */
     }
       .digital-container {          
        height: calc(100vh - calc(100vh - 100%));
-      margin-bottom: -6vh;
+      /* margin-bottom: -12vh; */
       } 
 
       .print-container {  
       height: calc(100vh - calc(100vh - 100%));
-      margin-bottom: -6vh;
+      /* margin-bottom: -12vh; */
     } 
 
 
@@ -667,14 +667,14 @@ and (orientation: portrait)
  {
 
    .about-container {   
-  margin-bottom: -6.2vh;
+  margin-bottom: -12.2vh;
     }
       .digital-container {                 
-      margin-bottom: -6.2vh;
+      margin-bottom: -12.2vh;
       } 
 
       .print-container {        
-      margin-bottom: -6.2vh;
+      margin-bottom: -12.2vh;
     }
 
     .header-item {          
