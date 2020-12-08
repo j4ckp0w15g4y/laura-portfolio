@@ -73,7 +73,7 @@ class Print extends Component {
                 <div onClick={() => this.setState({ showing: !showing })}>  
                         <div className="project">
                             <span>J HUS</span>
-                            <span className="client-column">Wonderland</span>                            
+                            <span className="client-column">Rollacoaster</span>                            
                         </div>   
                         {
                         showing 
@@ -97,7 +97,7 @@ class Print extends Component {
                     <div onClick={() => this.setState({ showingThree: !showingThree })}> 
                     <div className="project">
                         <span>Max Whitlock</span>
-                        <span className="client-column">Wonderland</span>                        
+                        <span className="client-column">Rollacoaster</span>                        
                     </div>
                     {
                         showingThree
@@ -116,7 +116,7 @@ class Print extends Component {
                     <div onClick={() => this.setState({ showingFour: !showingFour })}> 
                     <div className="project">
                         <span>Simi Haze</span>
-                        <span className="client-column">Wonderland</span>                    
+                        <span className="client-column">Notion</span>                    
                     </div>
                     {
                         showingFour 
@@ -133,7 +133,7 @@ class Print extends Component {
                     <div onClick={() => this.setState({ showingFive: !showingFive })}>
                     <div className="project">
                         <span>Neon Demon</span>
-                        <span className="client-column">Wonderland</span>                        
+                        <span className="client-column">Rollacoaster</span>                        
                     </div>
                     {
                         showingFive 
@@ -145,7 +145,7 @@ class Print extends Component {
                     <div onClick={() => this.setState({ showingSix: !showingSix })}>
                     <div className="project">
                         <span>Slava Magutin</span>
-                        <span className="client-column">Wonderland</span>                        
+                        <span className="client-column">Rollacoaster</span>                        
                     </div>
                     {
                         showingSix 
@@ -186,7 +186,7 @@ class Print extends Component {
                     <div onClick={() => this.setState({ showingNine: !showingNine })}> 
                         <div className="project">
                             <span>Walter Van Beirendonck</span>
-                            <span className="client-column">Wonderland</span>                            
+                            <span className="client-column">Cause &amp; Effect</span>                            
                         </div>
                         {
                         showingNine 
