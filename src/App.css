@@ -290,18 +290,17 @@ and (orientation: portrait)
 
    .about-container { 
   height: calc(100vh - calc(100vh - 100%));
-
+  margin-bottom: -6vh;
     }
-
-/* UNSURE */
-     .digital-container {          
+      .digital-container {          
        height: calc(100vh - calc(100vh - 100%));
-
-      }
+      margin-bottom: -6vh;
+      } 
 
       .print-container {  
       height: calc(100vh - calc(100vh - 100%));
-    }
+      margin-bottom: -6vh;
+    } 
 
 
     
@@ -382,8 +381,7 @@ and (orientation: portrait)
     bottom: 0;
     width: 33vw;
     height: 6vh;
-    /* margin-bottom: 6vh;            */
-    transition: height 999999s;
+    /* margin-bottom: 6vh;            */    
     }
 
     .one {
@@ -667,6 +665,18 @@ and (min-device-height: 667px)
 and (orientation: portrait)
 /* and (-webkit-min-device-pixel-ratio: 2) */
  {
+
+   .about-container {   
+  margin-bottom: -6.2vh;
+    }
+      .digital-container {                 
+      margin-bottom: -6.2vh;
+      } 
+
+      .print-container {        
+      margin-bottom: -6.2vh;
+    }
+
     .header-item {          
       text-align: center;
       }
@@ -879,6 +889,18 @@ and (orientation: portrait)
     margin-left: 32vw;      
     text-align: right;                         
 }       
+
+.about-container {   
+  margin-bottom: -6vh;
+    }
+      .digital-container {                 
+      margin-bottom: -6vh;
+      } 
+
+      .print-container {        
+      margin-bottom: -6vh;
+    }
+
   .rectangle {
     position: fixed;
     top: 94vh;
