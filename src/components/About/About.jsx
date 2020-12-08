@@ -18,9 +18,7 @@ class About extends Component {
 
                 <p className="left-text-box">
                     E: hello@lauraisabella.co.uk
-                    <br />
-                    M: +447834222219
-                    <br />
+                    <br />                    
                     lauraisabella.co.uk
                 </p>
 
