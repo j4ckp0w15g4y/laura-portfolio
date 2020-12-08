@@ -4,7 +4,7 @@ import Header from './components/Header/Header'
 import Print from './components/Print/Print'
 import Digital from './components/Digital/Digital'
 import About from './components/About/About'
-import Div100vh from 'react-div-100vh'
+// import Div100vh from 'react-div-100vh'
 
 
 import {
@@ -13,9 +13,13 @@ import {
 } from "react-router-dom";
 
 class App extends Component {
-  render() {    
+  render() {  
+//     window.onresize = function() {
+//     document.body.height = window.innerHeight;
+// }
+// window.onresize(); // called to initially set the height.  
   return (
-    <Div100vh>
+    // <Div100vh>
     <div className="App">
       <header>
         <Header />
@@ -27,7 +31,7 @@ class App extends Component {
         <Route path="/digital" component={Digital} />
       </Switch>    
     </div>
-    </Div100vh>
+    // </Div100vh>
   );
   }
 }
