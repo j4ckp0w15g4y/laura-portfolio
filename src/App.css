@@ -383,6 +383,7 @@ and (orientation: portrait)
     width: 33vw;
     height: 6vh;
     /* margin-bottom: 6vh;            */
+    transition: height 999999s;
     }
 
     .one {
