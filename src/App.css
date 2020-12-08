@@ -364,14 +364,17 @@ and (orientation: portrait)
     left: 5.8vw;
     }
 
-
+.header-nav {
+    position: fixed; 
+    z-index: 100000;   
+  }
 
   .rectangle {
     position: fixed;
     /* top: 94vh; */
     bottom: 0;
     width: 33vw;
-    height: 6vh;
+    height: 30px;
     /* margin-bottom: 6vh;            */    
     }
 
