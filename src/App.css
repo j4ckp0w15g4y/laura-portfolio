@@ -643,9 +643,10 @@ and (orientation: portrait)
       }
   .rectangle {
     position: fixed;
-    top: 87.8vh;
+    top: 94vh;
     width: 34vw;
     height: 6.2vh;
+    overflow: hidden;
     /* margin-bottom: 6.2vh;         */
     }
             .column-label-left {
