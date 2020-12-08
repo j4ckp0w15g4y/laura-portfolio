@@ -354,11 +354,13 @@ and (orientation: portrait)
     }
 
 
+
   .rectangle {
     position: fixed;
     top: 94vh;
     width: 33vw;
-    height: 6vh;           
+    height: 6vh;
+    margin-bottom: 6vh;           
     }
 
     .one {
@@ -641,9 +643,10 @@ and (orientation: portrait)
       }
   .rectangle {
     position: fixed;
-    top: 88vh;
+    top: 94vh;
     width: 34vw;
-    height: 6.2vh;        
+    height: 6.2vh;
+    margin-bottom: 6.2vh;        
     }
             .column-label-left {
                 position: absolute;
