@@ -400,7 +400,7 @@ and (orientation: portrait)
       .header-item {
         margin-top: 0vh;
         height: 4vh;
-        width: 12vw;   
+        width: 107px;   
         font-family: 'Archivo', sans-serif;
         font-size: 0.6rem;
         text-align: center;
@@ -408,8 +408,8 @@ and (orientation: portrait)
         font-style: normal;
         font-weight: normal;
         text-decoration: none;
-        left: 10vw; 
-        top: 1vh;       
+        left: -0.4vw; 
+        top: 2vh;       
         }
 
         .about-item {    
@@ -673,6 +673,8 @@ and (orientation: portrait)
   
     .header-item {          
       text-align: center;
+      top: 2.4vh;
+      left: 1.8vw;
       }
   .rectangle {
     position: fixed;
@@ -724,7 +726,13 @@ and (min-device-width: 414px)
 and (min-device-height: 736px)
 and (orientation: portrait)
 /* and (-webkit-min-device-pixel-ratio: 2) */
- {              
+ {        
+
+   .header-item {          
+      text-align: center;
+      top: 2.4vh;
+      left: 3vw;
+      }      
    
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
     font-size: 0.66rem;
@@ -772,7 +780,13 @@ and (min-device-width: 375px)
 and (min-device-height: 812px)
 and (orientation: portrait)
 /* and (-webkit-min-device-pixel-ratio: 2) */
-{             
+{     
+
+  .header-item {          
+      text-align: center;
+      top: 2.4vh;
+      left: 2vw;
+      }         
    
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
     font-size: 0.8rem;
@@ -813,7 +827,7 @@ and (orientation: landscape)
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
-  left: -3vw;
+  left: -3.4vw;
   }
  .laura-font-about {
         position: relative;
@@ -845,6 +859,7 @@ and (min-device-height: 1024px)
 and (orientation: portrait)
 /* and (-webkit-min-device-pixel-ratio: 2) */
  {
+ 
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
     font-size: 0.8rem;
   }
@@ -870,7 +885,9 @@ and (orientation: portrait)
               }
               
   .header-item {    
-    top: 2vh;       
+    text-align: center;
+      top: 2.4vh;
+      left: 9vw;       
     }
 
     .column-label-left {
@@ -1002,6 +1019,14 @@ and (orientation: portrait)
   .laura-font-digital {
     margin-top: 6.4em;
   }
+
+  .header-item {    
+    text-align: center;
+      top: 2.4vh;
+      left: 6vw;     
+      width: 20vw;  
+    }
+
 }
 
 @media only screen 
