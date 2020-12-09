@@ -373,7 +373,7 @@ and (orientation: portrait)
     position: fixed;
     /* top: 94vh; */
     bottom: 0;
-    width: 33vw;
+    width: 33.33vw;
     height: 6vh;
     /* margin-bottom: 6vh;            */    
     }
@@ -400,7 +400,7 @@ and (orientation: portrait)
       .header-item {
         margin-top: 0vh;
         height: 4vh;
-        width: 107px;   
+        width: 33vw;   
         font-family: 'Archivo', sans-serif;
         font-size: 0.6rem;
         text-align: center;
@@ -408,8 +408,8 @@ and (orientation: portrait)
         font-style: normal;
         font-weight: normal;
         text-decoration: none;
-        left: -0.4vw; 
-        top: 2vh;       
+        /* left: -0.4vw;  */
+        top: 2.2vh;       
         }
 
         .about-item {    
@@ -673,8 +673,7 @@ and (orientation: portrait)
   
     .header-item {          
       text-align: center;
-      top: 2.4vh;
-      left: 1.8vw;
+      top: 2.4vh;      
       }
   .rectangle {
     position: fixed;
@@ -730,8 +729,7 @@ and (orientation: portrait)
 
    .header-item {          
       text-align: center;
-      top: 2.4vh;
-      left: 3vw;
+      top: 2.4vh;      
       }      
    
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
@@ -784,8 +782,7 @@ and (orientation: portrait)
 
   .header-item {          
       text-align: center;
-      top: 2.4vh;
-      left: 2vw;
+      top: 2.4vh;      
       }         
    
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
@@ -886,8 +883,7 @@ and (orientation: portrait)
               
   .header-item {    
     text-align: center;
-      top: 2.4vh;
-      left: 9vw;       
+      top: 2.4vh;          
     }
 
     .column-label-left {
@@ -1022,9 +1018,7 @@ and (orientation: portrait)
 
   .header-item {    
     text-align: center;
-      top: 2.4vh;
-      left: 6vw;     
-      width: 20vw;  
+      top: 2.4vh;                  
     }
 
 }
