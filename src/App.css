@@ -815,7 +815,7 @@ and (orientation: landscape)
     font-size: 0.64rem;
   } 
   .header-item {
-    margin-top: 7vh;    
+    margin-top: 10vh;    
   height: 8vh;
   width: 14vw;   
   font-family: 'Archivo', sans-serif;  
@@ -824,7 +824,7 @@ and (orientation: landscape)
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
-  left: -3.4vw;
+  left: -4vw;
   }
  .laura-font-about {
         position: relative;
@@ -942,30 +942,47 @@ and (orientation: landscape)
     font-size: 0.94rem;
   }
 
+
   .info, .left-text-box {
     top: 2vh;
   }
+
+   /* .rectangle {
+    position: relative;    
+  } */
+
+  /* .one, .two, .three 
+  {
+    top: 0;
+  }  */
+
   
   .header-item {    
     /* top: 8vh; */    
-    /* position: fixed;        */
+    height: 4vh;    
+    position: absolute;    
+    word-wrap: break-word; 
+    top: 6vh;  
+    left: -4.6vw;    
+
     }
+
     .about-item {    
-      position: absolute;    
-      top: 4vh;
-      color: #FFFFFF;
+      position: absolute;          
+      color: #FFFFFF;       
+      
       }
       
       .digital-item { 
-      position: absolute;
-      top: 4vh;
+      position: absolute;      
       color: #000000;
+      overflow: hidden;
+      text-overflow: ellipsis;
       
       }
       
       .print-item {    
-      position: absolute; 
-      top: 4vh;
+      position: absolute;             
       color: #000000;
       }
 
