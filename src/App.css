@@ -177,9 +177,9 @@
         margin-top: 1vh;
     }
 
-    .project-image-hover {
+    /* .project-image-hover {
       width:
-    }
+    } */
   
 
 /* DIGITAL */
@@ -794,8 +794,8 @@ and (orientation: portrait)
     }
 
     .project-image-portrait {
-      width: 14vw;
-        height: 8vh;        
+      height: 20.8em;
+        width: 14em;          
     }
 
     .laura-font-digital {            
@@ -1078,10 +1078,7 @@ and (max-width: 601px)
 and (orientation: landscape) {
   .info, .left-text-box, .bio, .header-item, .column-label-left, .project, #project-header {
     font-size: 0.6rem;
-  }
-  .laura-font-digital {
-    /* margin-top: 1em; */
-  }
+  }  
 } 
 
 
