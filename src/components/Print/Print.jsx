@@ -1,32 +1,32 @@
 import React, { Component } from 'react';
 import LauraHeroDigital from '../../LI_Logo_Black.svg';
-import JHusOne from '../../Assets/j-hus-1.png'
-import JHusTwo from '../../Assets/j-hus-2.png'
-import DanaOne from '../../Assets/dana-1.png'
-import MaxWhitOne from '../../Assets/max-whitlock-1.png'
-import MaxWhitTwo from '../../Assets/max-whitlock-2.png'
-import MaxWhitThree from '../../Assets/max-whitlock-3.png'
-import MaxWhitFour from '../../Assets/max-whitlock-4.png'
-import MaxWhitFive from '../../Assets/max-whitlock-5.png'
-import MaxWhitSix from '../../Assets/max-whitlock-6.png'
-import SimiHazeOne from '../../Assets/simi-haze-1.png'
-import SimiHazeTwo from '../../Assets/simi-haze-2.png'
-import SimiHazeThree from '../../Assets/simi-haze-3.png'
-import SimiHazeFour from '../../Assets/simi-haze-4.png'
+import JHusOne from '../../Assets/j-hus-1.jpg'
+import JHusTwo from '../../Assets/j-hus-2.jpg'
+import DanaOne from '../../Assets/dana-1.jpg'
+import MaxWhitOne from '../../Assets/max-whitlock-1.jpg'
+import MaxWhitTwo from '../../Assets/max-whitlock-2.jpg'
+import MaxWhitThree from '../../Assets/max-whitlock-3.jpg'
+import MaxWhitFour from '../../Assets/max-whitlock-4.jpg'
+import MaxWhitFive from '../../Assets/max-whitlock-5.jpg'
+import MaxWhitSix from '../../Assets/max-whitlock-6.jpg'
+import SimiHazeOne from '../../Assets/simi-haze-1.jpg'
+import SimiHazeTwo from '../../Assets/simi-haze-2.jpg'
+import SimiHazeThree from '../../Assets/simi-haze-3.jpg'
+import SimiHazeFour from '../../Assets/simi-haze-4.jpg'
 import NeonDemonOne from '../../Assets/neon-demon-1.png'
-import SlavaOne from '../../Assets/slava-1.png'
-import LastJapanOne from '../../Assets/last-japan-1.png'
-import CameronDallasOne from '../../Assets/cameron-dallas-1.png'
-import CameronDallasTwo from '../../Assets/cameron-dallas-2.png'
-import CameronDallasThree from '../../Assets/cameron-dallas-3.png'
-import CameronDallasFour from '../../Assets/cameron-dallas-4.png'
-import WalterVBOne from '../../Assets/walter-vb-1.png'
-import WalterVBTwo from '../../Assets/walter-vb-2.png'
-import WalterVBThree from '../../Assets/walter-vb-3.png'
-import WalterVBFour from '../../Assets/walter-vb-4.png'
-import BebeRexhaOne from '../../Assets/bebe-rexha-1.png'
-import BebeRexhaTwo from '../../Assets/bebe-rexha-2.png'
-import BebeRexhaThree from '../../Assets/bebe-rexha-3.png'
+import SlavaOne from '../../Assets/slava-1.jpg'
+import LastJapanOne from '../../Assets/last-japan-1.jpg'
+import CameronDallasOne from '../../Assets/cameron-dallas-1.jpg'
+import CameronDallasTwo from '../../Assets/cameron-dallas-2.jpg'
+import CameronDallasThree from '../../Assets/cameron-dallas-3.jpg'
+import CameronDallasFour from '../../Assets/cameron-dallas-4.jpg'
+import WalterVBOne from '../../Assets/walter-vb-1.jpg'
+import WalterVBTwo from '../../Assets/walter-vb-2.jpg'
+import WalterVBThree from '../../Assets/walter-vb-3.jpg'
+import WalterVBFour from '../../Assets/walter-vb-4.jpg'
+import BebeRexhaOne from '../../Assets/bebe-rexha-1.jpg'
+import BebeRexhaTwo from '../../Assets/bebe-rexha-2.jpg'
+import BebeRexhaThree from '../../Assets/bebe-rexha-3.jpg'
 
 
 class Print extends Component {
@@ -70,6 +70,7 @@ class Print extends Component {
 
                 <div className="projects-underline"></div>                                                                                                                                                                                                                                                
                 <div className="projects-table">
+                
                 <div onClick={() => this.setState({ showing: !showing })}>  
                         <div className="project">
                             <span>J HUS</span>
